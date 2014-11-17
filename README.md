@@ -5,7 +5,7 @@ Target definition and  debug / launch configurations for developing KNIME-Plugin
 ### Reasoning
 KNIME is based on Eclipse Keppler, and so is the KNIME-SDK, this creates several
 problems, as the new versions of many Eclipse plugins don't work with Keppler anymore.
-These newer versions contain critical bug fixes, for example m2e.
+These newer versions contain critical bug fixes, for example for m2e.
  So we need a way to use the new eclipse versions to develop KNIME-Plugins.
 
 ### How-To
