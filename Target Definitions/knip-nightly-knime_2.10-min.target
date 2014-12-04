@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="latest knip nightly build installed on a barebone knime 2.10.3" sequenceNumber="4">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.knime.features.base.feature.group" version="2.10.3.0044468"/>
+<unit id="org.knime.features.testingapplication.feature.group" version="2.10.2.0044304"/>
+<repository location="http://www.knime.org/update/2.10/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.knime.knip.omero.feature.feature.group" version="0.8.2.201407092003"/>
+<unit id="org.knime.knip.feature.feature.group" version="1.2.1.201409141752"/>
+<repository location="http://tech.knime.org/update/community-contributions/trusted/2.10/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.knime.knip.imagej.feature.feature.group" version="0.9.0.201409131649"/>
+<unit id="org.knime.knip.tess4j.feature.feature.group" version="0.9.1.201409151349"/>
+<unit id="org.knime.knip.imagej3d.feature.feature.group" version="1.0.1.201407091125"/>
+<repository location="http://tech.knime.org/update/community-contributions/2.10/"/>
+</location>
+</locations>
+</target>
