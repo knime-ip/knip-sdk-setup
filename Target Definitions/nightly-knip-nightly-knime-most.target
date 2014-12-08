@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="knip nightly installed on a full knime 2.11 nightly (except chemistry)" sequenceNumber="5">
+<?pde version="3.8"?><target name="knip nightly installed on a full knime nightly (except chemistry)" sequenceNumber="5">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.knime.features.ext.itemset.feature.group" version="2.11.0.0045346"/>
