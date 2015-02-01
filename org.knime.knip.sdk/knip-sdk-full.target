@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Contains all OSGi bundles required for developing KNIP Nodes" sequenceNumber="138">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.knime.features.sdk.feature.group" version="2.11.1.0045704"/>
+<unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="2.11.0.0045346"/>
+<unit id="org.knime.features.wizard.feature.group" version="2.11.0.0045404"/>
+<unit id="org.knime.features.build.feature.group" version="2.11.1.0045686"/>
+<unit id="org.knime.features.base.feature.group" version="2.11.1.0045704"/>
+<unit id="org.knime.features.testingapplication.feature.group" version="2.11.1.0045686"/>
+<repository location="http://www.knime.org/update/2.11/"/>
+</location>
+</locations>
+</target>
