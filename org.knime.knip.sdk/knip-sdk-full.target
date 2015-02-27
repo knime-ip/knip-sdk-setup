@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Contains all OSGi bundles required for developing KNIP Nodes" sequenceNumber="147">
+<?pde version="3.8"?><target name="KNIP SDK" sequenceNumber="147">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="scifio-bf-compat" version="1.11.0"/>
