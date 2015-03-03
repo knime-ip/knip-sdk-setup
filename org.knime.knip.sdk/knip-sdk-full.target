@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Contains all OSGi bundles required for developing KNIP Nodes" sequenceNumber="148">
+<?pde version="3.8"?><target name="Contains all OSGi bundles required for developing KNIP Nodes" sequenceNumber="149">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.knime.features.base.feature.group" version="2.11.2.0046103"/>
@@ -55,6 +55,10 @@
 <unit id="scifio" version="0.21.1"/>
 <unit id="imglib2-algorithm-gpl" version="0.1.2"/>
 <repository location="https://community.knime.org/download/knip-externals-trunk"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.knime.knip.feature.feature.group" version="1.2.1.201409141752"/>
+<repository location="http://tech.knime.org/update/community-contributions/trusted/2.11"/>
 </location>
 </locations>
 </target>
