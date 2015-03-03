@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="149">
+<?pde version="3.8"?><target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP" sequenceNumber="148">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.knime.features.base.feature.group" version="2.11.2.0046103"/>
@@ -55,12 +55,6 @@
 <unit id="scifio" version="0.21.1"/>
 <unit id="imglib2-algorithm-gpl" version="0.1.2"/>
 <repository location="https://community.knime.org/download/knip-externals-trunk"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.knime.knip.imagej.feature.feature.group" version="0.9.1.201502131359"/>
-<unit id="org.knime.knip.feature.feature.group" version="1.3.0.201502181122"/>
-<unit id="org.knime.knip.imagej3d.feature.feature.group" version="1.0.1.201502021128"/>
-<repository location="http://tech.knime.org/update/community-contributions/trunk"/>
 </location>
 </locations>
 </target>
