@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP" sequenceNumber="148">
+<?pde version="3.8"?><target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP" sequenceNumber="150">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.knime.features.base.feature.group" version="2.11.2.0046103"/>
@@ -18,30 +18,30 @@
 <repository location="http://www.knime.org/update/2.11/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="scifio-lifesci" version="0.7.0"/>
 <unit id="scifio-bf-compat" version="1.11.0"/>
+<unit id="scifio-lifesci" version="0.7.0"/>
 <unit id="miglayout" version="3.7.4"/>
 <unit id="scijava-ui-awt" version="0.1.3"/>
 <unit id="imagej-ops" version="0.9.0"/>
 <unit id="imagej-ui-swing" version="0.11.0"/>
+<unit id="knip-trackmate-fork" version="2.7.3"/>
 <unit id="scijava-ui-swing" version="0.4.0"/>
 <unit id="imglib2-roi" version="0.2.1"/>
 <unit id="scripting-jython" version="0.2.0"/>
 <unit id="args4j" version="2.0.29"/>
 <unit id="scijava-common" version="2.38.2"/>
-<unit id="trove4j" version="3.0.3"/>
 <unit id="scripting-java" version="0.2.5"/>
+<unit id="trove4j" version="3.0.3"/>
 <unit id="imglib2-ij" version="2.0.29"/>
 <unit id="imagej-common" version="0.12.2"/>
 <unit id="miglayout-swing" version="4.2.0"/>
 <unit id="jep" version="2.4.2"/>
-<unit id="knip-trackmate-fork" version="2.7.1"/>
 <unit id="imglib2-algorithm" version="0.2.0"/>
 <unit id="slf4j-log4j12" version="1.7.10"/>
 <unit id="imagej-ui-awt" version="0.3.0"/>
 <unit id="scijava-plugins-text-plain" version="0.1.1"/>
-<unit id="scijava-plugins-commands" version="0.1.8"/>
 <unit id="commons-collections" version="3.2.1"/>
+<unit id="scijava-plugins-commands" version="0.1.8"/>
 <unit id="imglib2" version="2.2.0"/>
 <unit id="imglib2-algorithm-fft" version="0.1.1"/>
 <unit id="imagej-plugins-commands" version="0.4.1"/>
@@ -52,8 +52,8 @@
 <unit id="jama" version="1.0.3"/>
 <unit id="imglib2-realtransform" version="2.0.28"/>
 <unit id="scijava-plugins-text-markdown" version="0.1.1"/>
-<unit id="scifio" version="0.21.1"/>
 <unit id="imglib2-algorithm-gpl" version="0.1.2"/>
+<unit id="scifio" version="0.21.1"/>
 <repository location="https://community.knime.org/download/knip-externals-trunk"/>
 </location>
 </locations>
