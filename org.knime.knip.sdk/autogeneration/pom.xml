@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011, Obeo All rights reserved. This program and the accompanying
+	materials are made available under the terms of the Eclipse Public License
+	v1.0 which accompanies this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<groupId>org.knime.knip.sdk</groupId>
+	<artifactId>knip-sdk-full</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<tycho-version>0.18.1</tycho-version>
+		<tycho-extras-version>0.18.1</tycho-extras-version>
+		<platform-version-name>kepler</platform-version-name>
+		<targetPlatform.repository.p2>http://mbarbero.github.com/fr.obeo.releng.targetplatform/p2/</targetPlatform.repository.p2>
+		<targetPlatform.application.name>fr.obeo.releng.targetplatform.targetPlatform.converter</targetPlatform.application.name>
+		<targetPlatform.application.args>kepler-4.3-sdk.targetplatform</targetPlatform.application.args>
+		<targetPlatform.application.feature>fr.obeo.releng.targetplatform-feature_3.8</targetPlatform.application.feature>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-eclipserun-plugin</artifactId>
+				<version>${tycho-extras-version}</version>
+				<configuration>
+					<repositories>
+						<repository>
+							<id>${platform-version-name}</id>
+							<layout>p2</layout>
+							<url>http://download.eclipse.org/releases/${platform-version-name}</url>
+						</repository>
+						<repository>
+							<id>targetplatform</id>
+							<layout>p2</layout>
+							<url>${targetPlatform.repository.p2}</url>
+						</repository>
+					</repositories>
+					<!-- Set dependencies to launch the application -->
+					<dependencies>
+						<dependency>
+							<artifactId>${targetPlatform.application.feature}</artifactId>
+							<type>eclipse-feature</type>
+						</dependency>
+						<dependency>
+							<artifactId>org.eclipse.equinox.p2.sdk</artifactId>
+							<type>eclipse-feature</type>
+						</dependency>
+					</dependencies>
+				</configuration>
+				<executions>
+					<execution>
+						<id>knip-devel</id>
+						<goals>
+							<goal>eclipse-run</goal>
+						</goals>
+						<configuration>
+							<appArgLine>-consoleLog -application
+								${targetPlatform.application.name}
+								${targetPlatform.application.args} knip-sdk-full.tpd
+							</appArgLine>
+						</configuration>
+						<!-- The phase validate rebuild the targetplatform before to compile/test...
+							@see https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html -->
+						<phase>validate2</phase>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

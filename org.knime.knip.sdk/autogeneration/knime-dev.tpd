@@ -1,0 +1,55 @@
+target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
+requirements configurePhase
+
+location knime "http://www.knime.org/update/2.11/" {
+	org.knime.features.base.feature.group lazy
+	org.knime.features.base.filehandling.feature.group lazy
+	org.knime.features.ensembles.feature.group lazy
+	org.knime.features.base.treeensembles.feature.group lazy
+	org.knime.features.r.feature.group lazy
+	org.knime.features.python.feature.group lazy
+	org.knime.features.ext.jep.feature.group lazy
+	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.quickform.feature.group lazy
+	org.knime.features.testingapplication.feature.group lazy
+	com.knime.features.enterprise.client.exampleserver.feature.group lazy
+}
+
+location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
+	args4j lazy
+	commons-collections lazy
+	ij lazy
+	imagej-common lazy
+	imagej-ops lazy
+	imagej-plugins-commands lazy
+	imagej-ui-awt lazy
+	imagej-ui-swing lazy
+	imglib2 lazy
+	imglib2-algorithm lazy
+	imglib2-algorithm-fft lazy
+	imglib2-algorithm-gpl lazy
+	imglib2-ij lazy
+	imglib2-realtransform lazy
+	imglib2-roi lazy
+	jama lazy
+	jep lazy
+	knip-tmp-imglib2-ops lazy
+	knip-trackmate-fork lazy
+	miglayout lazy
+	miglayout-swing lazy
+	scifio lazy
+	scifio-bf-compat lazy
+	scifio-lifesci lazy
+	scijava-common lazy
+	scijava-log-slf4j lazy
+	scijava-plugins-commands lazy
+	scijava-plugins-text-markdown lazy
+	scijava-plugins-text-plain lazy
+	scijava-ui-awt lazy
+	scijava-ui-swing lazy
+	scripting-java lazy
+	scripting-jython lazy
+	slf4j-api lazy
+	slf4j-log4j12 lazy
+	trove4j lazy
+}

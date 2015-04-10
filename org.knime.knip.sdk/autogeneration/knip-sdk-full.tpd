@@ -1,0 +1,11 @@
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies"
+
+include "knime-dev.tpd"
+
+with source requirements configurePhase
+
+location knime-community-nightly "http://tech.knime.org/update/community-contributions/trunk" {
+	org.knime.knip.imagej.feature.feature.group lazy
+	org.knime.knip.imagej3d.feature.feature.group lazy
+	org.knime.knip.feature.feature.group lazy
+}
