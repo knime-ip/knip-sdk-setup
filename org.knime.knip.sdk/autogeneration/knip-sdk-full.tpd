@@ -1,6 +1,6 @@
 target "Full KNIP SDK: KNIP + KNIME + External Dependencies"
 
-include "knime-dev.tpd"
+include "knip-sdk-dev.tpd"
 
 with source requirements configurePhase
 

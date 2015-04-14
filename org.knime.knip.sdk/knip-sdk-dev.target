@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1428668712">
+<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1429013428">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
@@ -15,6 +15,7 @@
       <unit id="org.knime.features.quickform.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
       <repository id="knime" location="http://www.knime.org/update/2.11/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
