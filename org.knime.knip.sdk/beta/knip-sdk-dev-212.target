@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1430311652">
+<target name="Experimatal Build !! KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1430678069">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
