@@ -15,7 +15,7 @@ For people who want to develop plugins for KNIP and need a KNIME instance with K
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.  
 
 ### How-To
-- Download and install [Eclipse 4.x] (http://eclipse.org/home/index.php)
+1. Download and install [Eclipse 4.x] (http://eclipse.org/home/index.php)
 - Install the __Eclipse Plug-in Development Enviroment__ plugin from the __Eclipse Project__ update-site
 - Clone this repository using git clone https://github.com/knime-ip/knip-sdk-setup
 - Import the contained projects (File -> Import -> General -> Existing Projects into Workspace
