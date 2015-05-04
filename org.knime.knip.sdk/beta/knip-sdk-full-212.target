@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="!! Experimatal Build !! Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1430678074">
+<target name="!! Experimatal Build !! Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1430743161">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
@@ -61,6 +61,7 @@
       <unit id="org.knime.knip.imagej.feature.feature.group" version="0.0.0"/>
       <unit id="org.knime.knip.imagej3d.feature.feature.group" version="0.0.0"/>
       <unit id="org.knime.knip.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.imagej2.core" version="0.0.0"/>
       <repository id="knime-community-nightly" location="http://tech.knime.org/update/community-contributions/trunk"/>
     </location>
   </locations>
