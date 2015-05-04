@@ -16,7 +16,7 @@ If you need additional plugins you can easily edit the software sites in the tar
 
 ### How-To
 1. Download and install [Eclipse 4.x] (http://eclipse.org/home/index.php)
-- Install the __Eclipse Plug-in Development Enviroment__ plugin from the __Eclipse Project__ update-site
+- Install the __Eclipse Plug-in Development Enviroment__ plugin from the __The Eclipse Project Updates__ update-site
 - Clone this repository using git clone https://github.com/knime-ip/knip-sdk-setup
 - Import the contained projects (File -> Import -> General -> Existing Projects into Workspace
 - Double-click on the either the ``knip-sdk-full.target`` or the ``knip-sdk-dev.target`` file, which you will find in the ``org.knime.knip.sdk`` project.
