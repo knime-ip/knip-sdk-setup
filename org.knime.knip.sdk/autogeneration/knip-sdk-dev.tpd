@@ -14,6 +14,7 @@ location knime "http://www.knime.org/update/2.11/" {
 	org.knime.features.testingapplication.feature.group lazy
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.virtual.feature.group lazy
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
