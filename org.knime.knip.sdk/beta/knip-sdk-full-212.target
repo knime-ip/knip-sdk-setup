@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="!! Experimatal Build !! Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1430743161">
+<target name="!! Experimatal Build !! Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1431693949">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
@@ -16,6 +16,8 @@
       <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
       <repository id="knime" location="http://update.knime.org/analytics-platform/2.12"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
