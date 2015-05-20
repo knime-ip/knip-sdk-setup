@@ -16,6 +16,7 @@ location knime "http://www.knime.org/update/2.11/" {
 	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
+	org.eclipse.pde.api.tools lazy
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {

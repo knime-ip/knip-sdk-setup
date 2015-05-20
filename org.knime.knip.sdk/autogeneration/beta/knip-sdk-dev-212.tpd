@@ -1,5 +1,5 @@
 target
-"Experimatal Build !! KNIP Developer SDK: KNIME + External Dependencies for KNIP "
+"Experimatal Build !! KNIP Developer SDK: KNIME + External Dependencies for KNIP"
 with source requirements configurePhase
 
 location knime "http://update.knime.org/analytics-platform/2.12" {
@@ -17,6 +17,7 @@ location knime "http://update.knime.org/analytics-platform/2.12" {
 	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
+	org.eclipse.pde.api.tools lazy
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
