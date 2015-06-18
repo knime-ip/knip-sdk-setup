@@ -9,4 +9,5 @@ location knime-community-nightly "http://tech.knime.org/update/community-contrib
 	org.knime.knip.imagej3d.feature.feature.group lazy
 	org.knime.knip.feature.feature.group lazy
 	org.knime.knip.imagej2.core lazy
+	org.knime.knip.tess4j.feature.feature.group lazy
 }
