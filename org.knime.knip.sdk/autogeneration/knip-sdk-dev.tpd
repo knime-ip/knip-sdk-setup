@@ -1,22 +1,22 @@
 target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
 requirements configurePhase
 
-location knime "http://www.knime.org/update/2.11/" {
+location knime "http://www.knime.org/update/2.12" {
+	// org.eclipse.pde.api.tools lazy
 	org.knime.features.base.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
-	org.knime.features.ensembles.feature.group lazy
 	org.knime.features.base.treeensembles.feature.group lazy
-	org.knime.features.r.feature.group lazy
-	org.knime.features.python.feature.group lazy
+	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.ensembles.feature.group lazy
+	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.ext.jep.feature.group lazy
 	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.python.feature.group lazy
 	org.knime.features.quickform.feature.group lazy
+	org.knime.features.r.feature.group lazy
 	org.knime.features.testingapplication.feature.group lazy
-	com.knime.features.enterprise.client.exampleserver.feature.group lazy
-	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
-	org.eclipse.pde.api.tools lazy
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
@@ -35,6 +35,7 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	imglib2-ij lazy
 	imglib2-realtransform lazy
 	imglib2-roi lazy
+	imglib2-ui lazy
 	jama lazy
 	jep lazy
 	knip-tmp-imglib2-ops lazy
