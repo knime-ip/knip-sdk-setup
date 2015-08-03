@@ -23,6 +23,7 @@ If you need additional plugins you can easily edit the software sites in the tar
 - Wait until eclipse has resolved the target platform and click on __Set as Target Platform__ (upper-right corner)
 - The ``knip-launch-configuration`` should now be available to you in the debug and run configuration dialogs (under Eclipse Application).
 - The debug configuration assumes you have 2GB RAM available, if you want to use a different amount just  change the value of the ``-Xmx2g`` vm argument in the _Arguments_ tab of the ``knip-launch-configuration``.
+- Remember to regularely click the ``update`` and ``refresh`` buttons in the target definition interface to stay up to date with the nightly builds.
 
 
 ### How to Build
