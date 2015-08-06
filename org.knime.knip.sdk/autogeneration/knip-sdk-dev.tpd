@@ -2,21 +2,29 @@ target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
 requirements configurePhase
 
 location knime "http://www.knime.org/update/2.12" {
-	// org.eclipse.pde.api.tools lazy
+	com.actian.dataflow.feature.feature.group lazy
+	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.base.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
 	org.knime.features.base.treeensembles.feature.group lazy
+	org.knime.features.core.streaming.feature.group lazy
 	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.ensembles.feature.group lazy
-	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.ext.jep.feature.group lazy
 	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.optimization.feature.group
 	org.knime.features.python.feature.group lazy
 	org.knime.features.quickform.feature.group lazy
 	org.knime.features.r.feature.group lazy
+	org.knime.features.stats2.feature.group lazy
 	org.knime.features.testingapplication.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
+}
+
+location "http://update.knime.org/server/4.1" {
+	com.knime.features.enterprise.client.feature.group lazy
+//	com.knime.features.explorer.serverspace.feature.group lazy
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
