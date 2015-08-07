@@ -1,0 +1,34 @@
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies" with source
+requirements 
+
+location knime "http://www.knime.org/update/2.12" {
+	com.knime.features.enterprise.client.exampleserver.feature.group lazy
+	org.knime.features.base.feature.group lazy
+	org.knime.features.base.filehandling.feature.group lazy
+	org.knime.features.base.treeensembles.feature.group lazy
+	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.ensembles.feature.group lazy
+	org.knime.features.ext.jep.feature.group lazy
+	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.optimization.feature.group
+	org.knime.features.python.feature.group lazy
+	org.knime.features.quickform.feature.group lazy
+	org.knime.features.r.feature.group lazy
+	org.knime.features.testingapplication.feature.group lazy
+	org.knime.features.virtual.feature.group lazy
+	org.knime.features.xml.feature.group lazy
+}
+
+location knime-community-trusted "http://update.knime.org/community-contributions/trusted/2.12" {
+	org.knime.knip.feature.feature.group [1.2.1.201409141752,1.2.1.201409141752]
+	org.knime.knip.omero.feature.feature.group [0.8.2.201407092003,0.8.2.201407092003]
+	org.knime.knip.testing.feature.feature.group [1.2.1.201409141748,1.2.1.201409141748]
+	org.knime.knip.tracking [0.8.1,0.8.2)
+}
+
+location knime-community "http://update.knime.org/community-contributions/2.12" {
+	org.knime.knip.imagej3d.feature.feature.group [1.0.1.201407091125,1.0.1.201407091125]
+	org.knime.knip.imagej2.core [0.9.0.201407091506,0.9.0.201407091506]
+	org.knime.knip.tess4j.feature.feature.group [0.9.1.201409151349,0.9.1.201409151349]
+	org.knime.knip.imagej.feature.feature.group [0.9.0.201409131649,0.9.0.201409131649]
+}

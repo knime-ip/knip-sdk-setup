@@ -1,0 +1,9 @@
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies"
+
+include "knip-sdk-dev.tpd"
+
+with source requirements
+
+location knime-community-nightly "http://tech.knime.org/update/community-contributions/trunk" {
+	// Nightly build does not support KNIME 3.0 yet
+}

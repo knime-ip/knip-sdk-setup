@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="Experimatal Build !! KNIP Developer SDK: KNIME + External Dependencies for KNIP" sequenceNumber="1432150053">
+<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1438951045">
   <locations>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="com.actian.dataflow.feature.feature.group" version="0.0.0"/>
+      <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.treeensembles.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.optimization.feature.group" version="3.0.0.0048214"/>
+      <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.quickform.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
-      <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="http://update.knime.org/analytics-platform/2.12"/>
+      <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
+      <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
+      <unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
+      <unit id="com.knime.features.workbench.repository.custom.feature.group" version="0.0.0"/>
+      <repository id="knime" location="https://jenkins.knime.org/download/trunk/"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="args4j" version="0.0.0"/>
       <unit id="commons-collections" version="0.0.0"/>
       <unit id="ij" version="0.0.0"/>
@@ -37,6 +44,7 @@
       <unit id="imglib2-ij" version="0.0.0"/>
       <unit id="imglib2-realtransform" version="0.0.0"/>
       <unit id="imglib2-roi" version="0.0.0"/>
+      <unit id="imglib2-ui" version="0.0.0"/>
       <unit id="jama" version="0.0.0"/>
       <unit id="jep" version="0.0.0"/>
       <unit id="knip-tmp-imglib2-ops" version="0.0.0"/>

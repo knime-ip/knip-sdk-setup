@@ -1,7 +1,7 @@
 target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
-requirements configurePhase
+requirements
 
-location knime "http://www.knime.org/update/2.12" {
+location knime "https://jenkins.knime.org/download/trunk/" {
 	com.actian.dataflow.feature.feature.group lazy
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.base.feature.group lazy
@@ -20,12 +20,14 @@ location knime "http://www.knime.org/update/2.12" {
 	org.knime.features.testingapplication.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
+	
+	// Server Client plugins:
+	com.knime.features.enterprise.client.feature.group lazy
+	com.knime.features.explorer.serverspace.feature.group lazy
+	com.knime.features.explorer.sharedspace.feature.group lazy
+	com.knime.features.workbench.repository.custom.feature.group lazy
 }
 
-location "http://update.knime.org/server/4.1" {
-	com.knime.features.enterprise.client.feature.group lazy
-//	com.knime.features.explorer.serverspace.feature.group lazy
-}
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
 	args4j lazy
