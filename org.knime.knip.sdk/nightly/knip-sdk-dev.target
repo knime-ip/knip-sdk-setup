@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1438951045">
+<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1439204063">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.actian.dataflow.feature.feature.group" version="0.0.0"/>
@@ -26,6 +26,7 @@
       <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.workbench.repository.custom.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
       <repository id="knime" location="https://jenkins.knime.org/download/trunk/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">

@@ -26,6 +26,10 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	com.knime.features.explorer.serverspace.feature.group lazy
 	com.knime.features.explorer.sharedspace.feature.group lazy
 	com.knime.features.workbench.repository.custom.feature.group lazy
+	
+	// eclipse pde für scripting plugin
+	org.eclipse.pde.api.tools lazy
+	
 }
 
 
