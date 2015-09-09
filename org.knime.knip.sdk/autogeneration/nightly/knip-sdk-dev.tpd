@@ -11,7 +11,7 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.ensembles.feature.group lazy
 	org.knime.features.ext.jep.feature.group lazy
-	org.knime.features.ext.weka_3.7.feature.group lazy
+//	org.knime.features.ext.weka_3.7.feature.group lazy
 	org.knime.features.optimization.feature.group
 	org.knime.features.python.feature.group lazy
 	org.knime.features.quickform.feature.group lazy
@@ -20,6 +20,8 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	org.knime.features.testingapplication.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
+	org.knime.features.js.feature.group lazy
+	
 	
 	// Server Client plugins:
 	com.knime.features.enterprise.client.feature.group lazy
@@ -71,4 +73,7 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	slf4j-api lazy
 	slf4j-log4j12 lazy
 	trove4j lazy
+	autocomplete lazy
+	languagesupport lazy
+	rsyntaxtextarea lazy
 }
