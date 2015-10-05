@@ -54,6 +54,7 @@
       <unit id="scifio" version="0.0.0"/>
       <unit id="scifio-bf-compat" version="0.0.0"/>
       <unit id="scifio-lifesci" version="0.0.0"/>
+      <unit id="scijava-cache" version="0.0.0"/>
       <unit id="scijava-common" version="0.0.0"/>
       <unit id="scijava-log-slf4j" version="0.0.0"/>
       <unit id="scijava-plugins-commands" version="0.0.0"/>
