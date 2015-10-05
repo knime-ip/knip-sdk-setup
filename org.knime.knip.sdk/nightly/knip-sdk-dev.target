@@ -8,12 +8,11 @@
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.base.treeensembles.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.optimization.feature.group" version="3.0.0.0048491"/>
+      <unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.quickform.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
