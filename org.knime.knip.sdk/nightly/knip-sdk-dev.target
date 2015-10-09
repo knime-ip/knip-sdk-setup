@@ -64,6 +64,7 @@
       <unit id="scijava-ui-swing" version="0.0.0"/>
       <unit id="scripting-java" version="0.0.0"/>
       <unit id="scripting-jython" version="0.0.0"/>
+      <unit id="scripting-javascript" version="0.0.0"/>
       <unit id="slf4j-api" version="0.0.0"/>
       <unit id="slf4j-log4j12" version="0.0.0"/>
       <unit id="trove4j" version="0.0.0"/>
