@@ -6,36 +6,38 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.base.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
-	org.knime.features.base.treeensembles.feature.group lazy
 	org.knime.features.core.streaming.feature.group lazy
 	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.ensembles.feature.group lazy
 	org.knime.features.ext.jep.feature.group lazy
-//	org.knime.features.ext.weka_3.7.feature.group lazy
-	org.knime.features.optimization.feature.group
+	org.knime.features.optimization.feature.group lazy
 	org.knime.features.python.feature.group lazy
-	org.knime.features.quickform.feature.group lazy
 	org.knime.features.r.feature.group lazy
 	org.knime.features.stats2.feature.group lazy
 	org.knime.features.testingapplication.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.xml.feature.group lazy
-	org.knime.features.js.feature.group lazy
-	
-	
+	org.knime.features.js.views.feature.group lazy
+	org.knime.features.js.quickforms.feature.group lazy
+	org.knime.features.quickform.legacy.feature.group lazy
+
 	// Server Client plugins:
 	com.knime.features.enterprise.client.feature.group lazy
 	com.knime.features.explorer.serverspace.feature.group lazy
 	com.knime.features.explorer.sharedspace.feature.group lazy
 	com.knime.features.workbench.repository.custom.feature.group lazy
-	
+
 	// eclipse pde für scripting plugin
 	org.eclipse.pde.api.tools lazy
-	
+
 }
 
-
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
+	guava lazy
+	imagej-deprecated lazy
+	jython-shaded lazy
+	scijava-cache lazy
+	scripting-javascript lazy
 	args4j lazy
 	commons-collections lazy
 	ij lazy
@@ -73,7 +75,4 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	slf4j-api lazy
 	slf4j-log4j12 lazy
 	trove4j lazy
-	autocomplete lazy
-	languagesupport lazy
-	rsyntaxtextarea lazy
 }

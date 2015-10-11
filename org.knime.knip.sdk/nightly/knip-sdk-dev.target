@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1441796201">
+<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1444571163">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.actian.dataflow.feature.feature.group" version="0.0.0"/>
@@ -14,13 +14,14 @@
       <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.quickform.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.js.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
@@ -29,6 +30,11 @@
       <repository id="knime" location="https://jenkins.knime.org/download/trunk/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="guava" version="0.0.0"/>
+      <unit id="imagej-deprecated" version="0.0.0"/>
+      <unit id="jython-shaded" version="0.0.0"/>
+      <unit id="scijava-cache" version="0.0.0"/>
+      <unit id="scripting-javascript" version="0.0.0"/>
       <unit id="args4j" version="0.0.0"/>
       <unit id="commons-collections" version="0.0.0"/>
       <unit id="ij" version="0.0.0"/>
@@ -54,7 +60,6 @@
       <unit id="scifio" version="0.0.0"/>
       <unit id="scifio-bf-compat" version="0.0.0"/>
       <unit id="scifio-lifesci" version="0.0.0"/>
-      <unit id="scijava-cache" version="0.0.0"/>
       <unit id="scijava-common" version="0.0.0"/>
       <unit id="scijava-log-slf4j" version="0.0.0"/>
       <unit id="scijava-plugins-commands" version="0.0.0"/>
@@ -64,7 +69,6 @@
       <unit id="scijava-ui-swing" version="0.0.0"/>
       <unit id="scripting-java" version="0.0.0"/>
       <unit id="scripting-jython" version="0.0.0"/>
-      <unit id="scripting-javascript" version="0.0.0"/>
       <unit id="slf4j-api" version="0.0.0"/>
       <unit id="slf4j-log4j12" version="0.0.0"/>
       <unit id="trove4j" version="0.0.0"/>
