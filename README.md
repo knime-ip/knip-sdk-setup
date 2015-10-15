@@ -19,7 +19,7 @@ It contains KNIME and all needed dependencies for developing KNIP itself. It is 
 
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
-### How-To
+### Getting started with KNIP development
 1. Download and install [Eclipse 4.4 or 4.5] (http://eclipse.org/home/index.php)
 - Install the __Eclipse Plug-in Development Enviroment__ plugin from the __The Eclipse Project Updates__ update-site
 - Clone this repository using git clone https://github.com/knime-ip/knip-sdk-setup
