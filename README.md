@@ -1,11 +1,8 @@
-KNIP SDK
+KNIME Image Processing SDK
 ==============
-This repository collects the tools to facilitate the development of KNIME Nodes in the context of KNIME Image Processing (KNIP).
+This repository collects the tools to facilitate the development of KNIME Nodes in the context of KNIME Image Processing (KNIP). The KNIME Image Processing SDK (KNIP SDK), provides [Eclipse Target Definitions](https://wiki.eclipse.org/PDE/Target_Definitions) and a launch configuration, which can be used to develop KNIME and especially KNIME Image Processing nodes.
 
-## KNIP SDK vs. KNIME SDK
-The KNIME Image Processing SDK (KNIP SDK), provides [Eclipse Target Definitions](https://wiki.eclipse.org/PDE/Target_Definitions) and a launch configuration, which can be used to develop KNIME and especially KNIME Image Processing nodes.
-
-### Target Definitions
+## Target Definitions
 We provide different target definitions:
 * __stable__
   * __knip-sdk-2.11-full__:
