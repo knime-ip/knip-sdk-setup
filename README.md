@@ -33,8 +33,22 @@ If you need additional plugins you can easily edit the software sites in the tar
 - _Eclipse complains that some plugin can't be installed and the target definition file seems to have many errors in it!_ 
 Sadly eclipse seems to do that from time to time, in most cases clicking ``reload`` and ``update`` a few times solves that issue. If not you might need to update this repository as the target platform has changed.
 
+## Guidelines
+- Questions/Bug-Reports concerning the individual frameworks: Issues in the corresponding repositories.
+- Questions/Bug-Reports concerning KNIME Image Processing: http://tech.knime.org/forum/knime-image-processing
+
+Asking questions in a public forum or reporting the bugs on github makes sure, that others also benefit from the answers to your questions or see which bugs have already been reported and maybe solved.
 
 ## Frameworks and Tools
+### KNIME Image Processing:
+- Short Description: KNIME Image Processing extends KNIME by providing integrations for the processing and analysis of huge amounts of image data.
+- Uses: ImgLib2, ImageJ-Ops, ImageJ2
+- Link: http://knime.imagej.net
+- Webinar: https://www.youtube.com/watch?v=MqSIyqmm3EU&feature=youtu.be&a
+- Example Workflows: https://tech.knime.org/community/image-processing#exampleworkflows
+- Example Projects: https://github.com/knime-ip/knip-examples
+- Lecture with KNIME Image Processing: https://github.com/kmader/Quantitative-Big-Imaging-2015/blob/master/Exercises/02-Description-KNIME.md
+
 ### ImgLib2:
 - Short Description: ImgLib2 is a general-purpose, multidimensional image processing library.
 - Link: http://imglib2.net
@@ -49,28 +63,12 @@ Sadly eclipse seems to do that from time to time, in most cases clicking ``reloa
 - Tutorial "Using Ops": https://github.com/imagej/imagej-tutorials/tree/master/using-ops
 - Tutorial "Creating Ops": https://github.com/imagej/imagej-tutorials/tree/master/create-a-new-op
 
-### KNIME Image Processing:
-- Short Description: KNIME Image Processing extends KNIME by providing integrations for the processing and analysis of huge amounts of image data.
-- Uses: ImgLib2, ImageJ-Ops, ImageJ2
-- Link: http://knime.imagej.net
-- Webinar: https://www.youtube.com/watch?v=MqSIyqmm3EU&feature=youtu.be&a
-- Example Workflows: https://tech.knime.org/community/image-processing#exampleworkflows
-- Example Projects: https://github.com/knime-ip/knip-examples
-- Lecture with KNIME Image Processing: https://github.com/kmader/Quantitative-Big-Imaging-2015/blob/master/Exercises/02-Description-KNIME.md
-
 ### ImageJ2:
 - Short Description: ImageJ2 is a supercharged version of ImageJ1 with new features. ImageJ2 is an entirely redesigned, more powerful set of software libraries.
 - Uses: ImgLib2, ImageJ-Ops
 - Link: http://imagej.net
 - GitHub: https://github.com/imagej
 - Tutorials: https://github.com/imagej/imagej-tutorials
-
-## Guidelines
-- Questions/Bug-Reports concerning the individual frameworks: Issues in the corresponding repositories.
-- Questions/Bug-Reports concerning KNIME Image Processing: http://tech.knime.org/forum/knime-image-processing
-
-Asking questions in a public forum or reporting the bugs on github makes sure, that others also benefit from the answers to your questions or see which bugs have already been reported and maybe solved.
-
 
 
 ### How to Build the target platform file
