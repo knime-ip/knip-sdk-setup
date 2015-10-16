@@ -2,7 +2,7 @@ KNIP SDK
 ==============
 This repository collects the tools to facilitate the development of KNIME Nodes in the context of KNIME Image Processing (KNIP).
 
-### KNIP SDK vs. KNIME SDK
+## KNIP SDK vs. KNIME SDK
 The KNIME Image Processing SDK (KNIP SDK), provides [Eclipse Target Definitions](https://wiki.eclipse.org/PDE/Target_Definitions) and a launch configuration, which can be used to develop KNIME and especially KNIME Image Processing nodes.
 
 ### Target Definitions
@@ -18,7 +18,7 @@ It contains KNIME and all needed dependencies for developing KNIP itself. It is 
 
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
-### Getting started with KNIP development
+## Getting started with KNIP development
 1. Download and install [Eclipse 4.4 or 4.5] (http://eclipse.org/home/index.php)
 - Install the __Eclipse Plug-in Development Enviroment__ plugin from the __The Eclipse Project Updates__ update-site
 - Clone this repository using git clone https://github.com/knime-ip/knip-sdk-setup
@@ -29,7 +29,7 @@ If you need additional plugins you can easily edit the software sites in the tar
 - The debug configuration assumes you have 2GB RAM available, if you want to use a different amount just  change the value of the ``-Xmx2g`` vm argument in the _Arguments_ tab of the ``knip-launch-configuration``.
 - Remember to often click the ``update`` and ``reload`` buttons in the target definition interface to stay up to date with the nightly builds. 
 
-# FAQ
+## FAQ
 - _Eclipse complains that some plugin can't be installed and the target definition file seems to have many errors in it!_ 
 Sadly eclipse seems to do that from time to time, in most cases clicking ``reload`` and ``update`` a few times solves that issue. If not you might need to update this repository as the target platform has changed.
 
@@ -71,6 +71,6 @@ Asking questions in a public forum or reporting the bugs on github makes sure, t
 - Tutorials: https://github.com/imagej/imagej-tutorials
 
 
-### How to Build the target platform file
+## How to Build the target platform file
 The target definition files are build using this [eclipse plugin](https://github.com/mbarbero/fr.obeo.releng.targetplatform). You need to install it to build your own, modified target definition files.
 The build files are located in the autogen folder. To rebuild the target definition files after modification rightclick on the corresponding .tpd file and select "Create Target Definition File".
