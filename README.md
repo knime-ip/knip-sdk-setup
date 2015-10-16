@@ -3,8 +3,7 @@ KNIP SDK
 This repository collects the tools to facilitate the development of KNIME Nodes in the context of KNIME Image Processing (KNIP).
 
 ### KNIP SDK vs. KNIME SDK
-The KNIME SDK still bases on Eclipse Indigo, which is kind of buggy and not as feature-rich as the 4.x versions of Eclipse. Therefore
-the KNIME Image Processing SDK (KNIP SDK), provides [Eclipse Target Definitions](https://wiki.eclipse.org/PDE/Target_Definitions) and a launch configuration, which can be used to develop KNIME and especially KNIME Image Processing nodes with Eclipse 4.x.
+The KNIME Image Processing SDK (KNIP SDK), provides [Eclipse Target Definitions](https://wiki.eclipse.org/PDE/Target_Definitions) and a launch configuration, which can be used to develop KNIME and especially KNIME Image Processing nodes.
 
 ### Target Definitions
 We provide different target definitions:
