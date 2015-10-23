@@ -26,7 +26,7 @@
       <unit id="com.knime.features.explorer.sharedspace.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.workbench.repository.custom.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="https://jenkins.knime.org/download/trunk/"/>
+      <repository id="knime" location="https://update.knime.org/analytics-platform/3.0/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="guava" version="0.0.0"/>
@@ -71,7 +71,7 @@
       <unit id="slf4j-api" version="0.0.0"/>
       <unit id="slf4j-log4j12" version="0.0.0"/>
       <unit id="trove4j" version="0.0.0"/>
-      <repository id="knip-externals" location="https://update.knime.org/analytics-platform/3.0"/>
+      <repository id="knip-externals" location="https://community.knime.org/download/knip-externals-trunk"/>
     </location>
   </locations>
 </target>
