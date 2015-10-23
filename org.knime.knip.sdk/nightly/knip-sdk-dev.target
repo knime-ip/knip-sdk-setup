@@ -71,7 +71,7 @@
       <unit id="slf4j-api" version="0.0.0"/>
       <unit id="slf4j-log4j12" version="0.0.0"/>
       <unit id="trove4j" version="0.0.0"/>
-      <repository id="knip-externals" location="https://community.knime.org/download/knip-externals-trunk"/>
+      <repository id="knip-externals" location="https://update.knime.org/analytics-platform/3.0"/>
     </location>
   </locations>
 </target>
