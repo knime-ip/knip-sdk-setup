@@ -21,7 +21,6 @@
       <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
-      <unit id="com.knime.features.workbench.repository.custom.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
       <repository id="knime" location="https://update.knime.org/analytics-platform/3.0/"/>
     </location>
