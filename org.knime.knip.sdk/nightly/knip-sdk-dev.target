@@ -1,73 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde?>
-<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1444571163">
-  <locations>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
-      <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="https://update.knime.org/analytics-platform/3.0/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="guava" version="0.0.0"/>
-      <unit id="imagej-deprecated" version="0.0.0"/>
-      <unit id="jython-shaded" version="0.0.0"/>
-      <unit id="scijava-cache" version="0.0.0"/>
-      <unit id="scripting-javascript" version="0.0.0"/>
-      <unit id="args4j" version="0.0.0"/>
-      <unit id="commons-collections" version="0.0.0"/>
-      <unit id="ij" version="0.0.0"/>
-      <unit id="imagej-common" version="0.0.0"/>
-      <unit id="imagej-ops" version="0.0.0"/>
-      <unit id="imagej-plugins-commands" version="0.0.0"/>
-      <unit id="imagej-ui-awt" version="0.0.0"/>
-      <unit id="imagej-ui-swing" version="0.0.0"/>
-      <unit id="imglib2" version="0.0.0"/>
-      <unit id="imglib2-algorithm" version="0.0.0"/>
-      <unit id="imglib2-algorithm-fft" version="0.0.0"/>
-      <unit id="imglib2-algorithm-gpl" version="0.0.0"/>
-      <unit id="imglib2-ij" version="0.0.0"/>
-      <unit id="imglib2-realtransform" version="0.0.0"/>
-      <unit id="imglib2-roi" version="0.0.0"/>
-      <unit id="imglib2-ui" version="0.0.0"/>
-      <unit id="jama" version="0.0.0"/>
-      <unit id="jep" version="0.0.0"/>
-      <unit id="knip-tmp-imglib2-ops" version="0.0.0"/>
-      <unit id="knip-trackmate-fork" version="0.0.0"/>
-      <unit id="miglayout" version="0.0.0"/>
-      <unit id="miglayout-swing" version="0.0.0"/>
-      <unit id="scifio" version="0.0.0"/>
-      <unit id="scifio-bf-compat" version="0.0.0"/>
-      <unit id="scifio-lifesci" version="0.0.0"/>
-      <unit id="scijava-common" version="0.0.0"/>
-      <unit id="scijava-log-slf4j" version="0.0.0"/>
-      <unit id="scijava-plugins-commands" version="0.0.0"/>
-      <unit id="scijava-plugins-text-markdown" version="0.0.0"/>
-      <unit id="scijava-plugins-text-plain" version="0.0.0"/>
-      <unit id="scijava-ui-awt" version="0.0.0"/>
-      <unit id="scijava-ui-swing" version="0.0.0"/>
-      <unit id="scripting-java" version="0.0.0"/>
-      <unit id="scripting-jython" version="0.0.0"/>
-      <unit id="slf4j-api" version="0.0.0"/>
-      <unit id="slf4j-log4j12" version="0.0.0"/>
-      <unit id="trove4j" version="0.0.0"/>
-      <repository id="knip-externals" location="https://community.knime.org/download/knip-externals-trunk"/>
-    </location>
-  </locations>
+<?pde version="3.8"?><target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP" sequenceNumber="1444571166">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.optimization.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.python.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.r.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.views.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
+<unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
+<repository location="https://update.knime.org/analytics-platform/3.0/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="scijava-plugins-text-markdown" version="0.1.1"/>
+<unit id="guava" version="18.0.0"/>
+<unit id="knip-trackmate-fork" version="2.7.3"/>
+<unit id="scijava-log-slf4j" version="1.0.2"/>
+<unit id="scijava-ui-swing" version="0.7.0"/>
+<unit id="knip-tmp-imglib2-ops" version="0.4.0"/>
+<unit id="trove4j" version="3.0.3"/>
+<unit id="commons-collections" version="3.2.1"/>
+<unit id="slf4j-log4j12" version="1.7.10"/>
+<unit id="imglib2-algorithm-fft" version="0.1.2"/>
+<unit id="jama" version="1.0.3"/>
+<unit id="imglib2-algorithm" version="0.3.2"/>
+<unit id="miglayout" version="3.7.4"/>
+<unit id="scijava-common" version="2.48.0"/>
+<unit id="imglib2-ij" version="2.0.31"/>
+<unit id="scifio-bf-compat" version="2.0.0"/>
+<unit id="imagej-deprecated" version="0.1.0"/>
+<unit id="scripting-jython" version="0.2.2"/>
+<unit id="imglib2-algorithm-gpl" version="0.1.5"/>
+<unit id="scijava-plugins-text-plain" version="0.1.1"/>
+<unit id="imglib2-realtransform" version="2.0.29"/>
+<unit id="scifio" version="0.25.1"/>
+<unit id="imagej-plugins-commands" version="0.6.0"/>
+<unit id="imagej-common" version="0.18.0"/>
+<unit id="imagej-ui-swing" version="0.15.1"/>
+<unit id="imglib2-ui" version="2.0.29"/>
+<unit id="scijava-cache" version="0.1.0"/>
+<unit id="args4j" version="2.0.29"/>
+<unit id="scripting-java" version="0.3.3"/>
+<unit id="jython-shaded" version="2.5.3"/>
+<unit id="scifio-lifesci" version="0.7.0"/>
+<unit id="ij" version="1.50.0"/>
+<unit id="scijava-plugins-commands" version="0.2.0"/>
+<unit id="imagej-ui-awt" version="0.3.0"/>
+<unit id="slf4j-api" version="1.7.10"/>
+<unit id="imagej-ops" version="0.22.0"/>
+<unit id="jep" version="2.4.2"/>
+<unit id="miglayout-swing" version="4.2.0"/>
+<unit id="xml-apis" version="1.4.1"/>
+<unit id="imglib2" version="2.4.0"/>
+<unit id="scripting-javascript" version="0.4.1"/>
+<unit id="imglib2-roi" version="0.4.2"/>
+<unit id="scijava-ui-awt" version="0.1.3"/>
+<repository location="https://community.knime.org/download/knip-externals-trunk"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="com.knime.features.enterprise.client.feature.group" version="4.1.100.0049171"/>
+<unit id="com.knime.features.explorer.serverspace.feature.group" version="4.1.100.0049166"/>
+<repository location="http://update.knime.org/server/4.2"/>
+</location>
+</locations>
 </target>
