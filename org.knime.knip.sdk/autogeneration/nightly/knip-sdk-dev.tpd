@@ -1,8 +1,7 @@
 target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
 requirements
 
-location knime "https://jenkins.knime.org/download/trunk/" {
-	com.actian.dataflow.feature.feature.group lazy
+location knime "https://update.knime.org/analytics-platform/3.0/" {
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.base.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
@@ -21,18 +20,24 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	org.knime.features.js.quickforms.feature.group lazy
 	org.knime.features.quickform.legacy.feature.group lazy
 
-	// Server Client plugins:
+	// eclipse pde für scripting plugin
+	org.eclipse.pde.api.tools lazy
+}
+
+// Server Client plugins:
+location knime-server "http://update.knime.org/server/4.2" {
 	com.knime.features.enterprise.client.feature.group lazy
 	com.knime.features.explorer.serverspace.feature.group lazy
 	com.knime.features.explorer.sharedspace.feature.group lazy
 	com.knime.features.workbench.repository.custom.feature.group lazy
-
-	// eclipse pde für scripting plugin
-	org.eclipse.pde.api.tools lazy
-
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
+	a.jre.javase lazy
+	com.fifesoft.autocomplete lazy
+	com.fifesoft.languagesupport lazy
+	com.fifesoft.rsyntaxtextarea lazy
+	xml-apis lazy
 	guava lazy
 	imagej-deprecated lazy
 	jython-shaded lazy

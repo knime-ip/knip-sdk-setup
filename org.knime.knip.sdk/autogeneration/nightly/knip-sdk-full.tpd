@@ -5,5 +5,12 @@ include "knip-sdk-dev.tpd"
 with source requirements
 
 location knime-community-nightly "http://tech.knime.org/update/community-contributions/trunk" {
-	// Nightly build does not support KNIME 3.0 yet
+	org.knime.knip.cellprofiler.feature.feature.group lazy
+	org.knime.knip.feature.feature.group lazy
+	org.knime.knip.omero.feature.feature.group lazy
+	org.knime.knip.testing.feature.feature.group lazy
+	org.knime.knip.imagej.feature.feature.group lazy
+	org.knime.knip.tess4j.feature.feature.group lazy
+	org.knime.knip.imagej3d.feature.feature.group lazy
+	org.knime.knip.suise.feature.feature.group lazy
 }
