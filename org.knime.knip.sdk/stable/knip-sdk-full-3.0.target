@@ -26,9 +26,9 @@
       <repository id="knime" location="http://www.knime.org/update/3.0"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.knime.knip.feature.feature.group" version="1.4.0.201510271159"/>
-      <unit id="org.knime.knip.omero.feature.feature.group" version="0.10.0.201510111033"/>
-      <unit id="org.knime.knip.testing.feature.feature.group" version="1.4.0.201510271159"/>
+      <unit id="org.knime.knip.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.omero.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.testing.feature.feature.group" version="0.0.0"/>
       <repository id="knime-community-trusted" location="http://update.knime.org/community-contributions/trusted/3.0"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
@@ -37,12 +37,12 @@
       <repository id="knime-server" location="http://update.knime.org/server/4.2"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.knime.knip.cellprofiler.feature.feature.group" version="0.2.0.201510252145"/>
-      <unit id="org.knime.knip.ilastik.feature.feature.group" version="0.1.0.201510261257"/>
-      <unit id="org.knime.knip.knimepython.feature.feature.group" version="1.0.0.201510221600"/>
-      <unit id="org.knime.knip.imagej3d.feature.feature.group" version="1.1.0.201510111042"/>
-      <unit id="org.knime.knip.tess4j.feature.feature.group" version="1.2.0.201510252148"/>
-      <unit id="org.knime.knip.imagej.feature.feature.group" version="0.10.0.201510230800"/>
+      <unit id="org.knime.knip.cellprofiler.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.ilastik.feature.feature.group" version="0.0.57"/>
+      <unit id="org.knime.knip.knimepython.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.imagej3d.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.tess4j.feature.feature.group" version="0.0.0"/>
+      <unit id="org.knime.knip.imagej.feature.feature.group" version="0.0.0"/>
       <repository id="knime-community" location="http://update.knime.org/community-contributions/3.0"/>
     </location>
   </locations>
