@@ -34,7 +34,7 @@
 <unit id="slf4j-log4j12" version="1.7.10"/>
 <unit id="imglib2-algorithm-fft" version="0.1.2"/>
 <unit id="jama" version="1.0.3"/>
-<unit id="imglib2-algorithm" version="0.3.2"/>
+<unit id="imglib2-algorithm" version="0.3.3"/>
 <unit id="miglayout" version="3.7.4"/>
 <unit id="scijava-common" version="2.48.0"/>
 <unit id="imglib2-ij" version="2.0.31"/>
