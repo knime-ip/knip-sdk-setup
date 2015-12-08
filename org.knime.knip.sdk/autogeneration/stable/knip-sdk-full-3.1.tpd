@@ -1,0 +1,49 @@
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies" with source
+requirements
+
+location knime "http://www.knime.org/update/3.1" {
+	com.knime.features.enterprise.client.exampleserver.feature.group lazy
+	org.knime.features.base.feature.group lazy
+	org.knime.features.ensembles.feature.jar lazy
+	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.ensembles.feature.group lazy
+	org.knime.features.ext.jep.feature.group lazy
+	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.optimization.feature.group
+	org.knime.features.python.feature.group lazy
+	org.knime.features.ext.jep.source.feature.group lazy
+	org.knime.features.js.quickforms.feature.group lazy
+	org.knime.features.js.views.source.feature.group lazy
+	org.knime.features.quickform.legacy.feature.group lazy
+	org.knime.features.r.feature.group lazy
+	org.knime.features.testingapplication.feature.group lazy
+	org.knime.features.virtual.feature.group lazy
+	org.knime.features.xml.feature.group lazy
+	org.knime.features.core.streaming.feature.group lazy
+	org.knime.features.ensembles.source.feature.group lazy
+	org.knime.features.activelearning.feature.group lazy
+	org.knime.features.explorer.view.feature.group lazy
+	org.knime.features.xml.source.feature.group lazy
+	org.knime.features.base.filehandling.source.feature.group lazy
+	org.eclipse.pde.api.tools lazy
+}
+
+location knime-community-trusted "http://update.knime.org/community-contributions/trusted/3.1" {
+	org.knime.knip.feature.feature.group [1.4.1.201512031237,1.4.1.201512031237]
+	org.knime.knip.omero.feature.feature.group [0.10.0.201510111033,0.10.0.201510111033]
+	org.knime.knip.testing.feature.feature.group [1.4.1.201512031237,1.4.1.201512031237]
+}
+
+location knime-server "http://update.knime.org/server/4.2" {
+	com.knime.features.enterprise.client.feature.group lazy
+	com.knime.features.explorer.serverspace.feature.group lazy
+}
+
+location knime-community "http://update.knime.org/community-contributions/3.1" {
+	org.knime.knip.cellprofiler.feature.feature.group [0.2.0.201510252145,0.2.0.201510252145]
+	org.knime.knip.ilastik.feature.feature.group  [0.1.1.201510281448,0.1.1.201510281448]
+	org.knime.knip.knimepython.feature.feature.group [1.0.0.201511250958,1.0.0.201511250958]
+	org.knime.knip.imagej3d.feature.feature.group [1.1.0.201510111042,1.1.0.201510111042]
+	org.knime.knip.tess4j.feature.feature.group [1.2.0.201510252148,1.2.0.201510252148]
+	org.knime.knip.imagej.feature.feature.group [0.10.0.201510230800,0.10.0.201510230800]
+}

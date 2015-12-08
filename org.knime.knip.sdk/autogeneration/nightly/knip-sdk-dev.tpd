@@ -1,7 +1,7 @@
 target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
 requirements
 
-location knime "https://update.knime.org/analytics-platform/3.0/" {
+location knime "https://update.knime.org/analytics-platform/3.1/" {
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	org.knime.features.base.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
@@ -19,6 +19,9 @@ location knime "https://update.knime.org/analytics-platform/3.0/" {
 	org.knime.features.js.views.feature.group lazy
 	org.knime.features.js.quickforms.feature.group lazy
 	org.knime.features.quickform.legacy.feature.group lazy
+	org.knime.features.activelearning.feature.group lazy
+	org.knime.features.explorer.view.feature.group lazy
+
 
 	// eclipse pde für scripting plugin
 	org.eclipse.pde.api.tools lazy
@@ -28,8 +31,6 @@ location knime "https://update.knime.org/analytics-platform/3.0/" {
 location knime-server "http://update.knime.org/server/4.2" {
 	com.knime.features.enterprise.client.feature.group lazy
 	com.knime.features.explorer.serverspace.feature.group lazy
-	com.knime.features.explorer.sharedspace.feature.group lazy
-	com.knime.features.workbench.repository.custom.feature.group lazy
 }
 
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {

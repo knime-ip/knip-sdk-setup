@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
+<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1449615749">
+  <locations>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ensembles.feature.jar" version="0.0.0"/>
+      <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ext.jep.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.optimization.feature.group" version="3.1.0.v201512012046"/>
+      <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ext.jep.source.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.js.views.source.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.virtual.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.core.streaming.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.ensembles.source.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.explorer.view.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.xml.source.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.base.filehandling.source.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
+      <repository id="knime" location="http://www.knime.org/update/3.1"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.knime.knip.feature.feature.group" version="1.4.1.201512031237"/>
+      <unit id="org.knime.knip.omero.feature.feature.group" version="0.10.0.201510111033"/>
+      <unit id="org.knime.knip.testing.feature.feature.group" version="1.4.1.201512031237"/>
+      <repository id="knime-community-trusted" location="http://update.knime.org/community-contributions/trusted/3.1"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
+      <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
+      <repository id="knime-server" location="http://update.knime.org/server/4.2"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.knime.knip.cellprofiler.feature.feature.group" version="0.2.0.201510252145"/>
+      <unit id="org.knime.knip.ilastik.feature.feature.group" version="0.1.1.201510281448"/>
+      <unit id="org.knime.knip.knimepython.feature.feature.group" version="1.0.0.201511250958"/>
+      <unit id="org.knime.knip.imagej3d.feature.feature.group" version="1.1.0.201510111042"/>
+      <unit id="org.knime.knip.tess4j.feature.feature.group" version="1.2.0.201510252148"/>
+      <unit id="org.knime.knip.imagej.feature.feature.group" version="0.10.0.201510230800"/>
+      <repository id="knime-community" location="http://update.knime.org/community-contributions/3.1"/>
+    </location>
+  </locations>
+</target>
