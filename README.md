@@ -25,7 +25,7 @@ If you need additional plugins you can easily edit the software sites in the tar
 - Double-click on the desired target definition file, which you will find in the ``org.knime.knip.sdk`` project.
 - Wait until eclipse has resolved the target platform and click on __Set as Target Platform__ (upper-right corner)
 - The ``knip-stable-launch-configuration`` and ``knip-nightly-launch-configuration`` should now be available to you in the debug and run configuration dialogs (under Eclipse Application).
-- The debug configuration assumes you have 2GB RAM available, if you want to use a different amount just  change the value of the ``-Xmx2g`` vm argument in the _Arguments_ tab of the ``knip-launch-configuration``.
+- The debug configuration assumes you have 4GB RAM available, if you want to use a different amount just  change the value of the ``-Xmx4g`` vm argument in the _Arguments_ tab of the ``knip-launch-configuration``.
 - Remember to often click the ``update`` and ``reload`` buttons in the target definition interface to stay up to date with the nightly builds. 
 
 ## FAQ
