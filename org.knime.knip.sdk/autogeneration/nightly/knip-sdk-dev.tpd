@@ -81,4 +81,5 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	slf4j-api lazy
 	slf4j-log4j12 lazy
 	trove4j lazy
+	commons-math3 lazy
 }
