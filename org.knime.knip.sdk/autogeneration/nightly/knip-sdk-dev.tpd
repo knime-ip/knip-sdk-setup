@@ -86,4 +86,10 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scripting-clojure lazy
 	scripting-groovy lazy
 	scripting-jruby lazy
+	bigdataviewer-core lazy
+	bigdataviewer-vistools lazy
+	gson lazy
+	jdom2 lazy
+	scijava-ui-behaviour lazy
+	spim_data lazy
 }
