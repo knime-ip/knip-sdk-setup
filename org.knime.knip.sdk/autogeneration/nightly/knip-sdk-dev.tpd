@@ -90,6 +90,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	bigdataviewer-vistools lazy
 	gson lazy
 	jdom2 lazy
-	scijava-ui-behaviour lazy
+	ui-behaviour lazy
 	spim_data lazy
 }
