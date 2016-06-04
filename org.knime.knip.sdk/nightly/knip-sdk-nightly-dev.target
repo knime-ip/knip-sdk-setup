@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1462282907">
+<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1465031818">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
@@ -90,6 +90,53 @@
       <unit id="jdom2" version="0.0.0"/>
       <unit id="ui-behaviour" version="0.0.0"/>
       <unit id="spim_data" version="0.0.0"/>
+      <unit id="args4j.source" version="0.0.0"/>
+      <unit id="bigdataviewer-core.source" version="0.0.0"/>
+      <unit id="bigdataviewer-vistools.source" version="0.0.0"/>
+      <unit id="commons-collections.source" version="0.0.0"/>
+      <unit id="commons-math3.source" version="0.0.0"/>
+      <unit id="gson.source" version="0.0.0"/>
+      <unit id="guava.source" version="0.0.0"/>
+      <unit id="ij.source" version="0.0.0"/>
+      <unit id="imagej-common.source" version="0.0.0"/>
+      <unit id="imagej-deprecated.source" version="0.0.0"/>
+      <unit id="imagej-ops.source" version="0.0.0"/>
+      <unit id="imagej-plugins-commands.source" version="0.0.0"/>
+      <unit id="imagej-ui-awt.source" version="0.0.0"/>
+      <unit id="imglib2-algorithm-fft.source" version="0.0.0"/>
+      <unit id="imglib2-algorithm.source" version="0.0.0"/>
+      <unit id="imglib2-realtransform.source" version="0.0.0"/>
+      <unit id="imglib2-roi.source" version="0.0.0"/>
+      <unit id="imglib2-ui.source" version="0.0.0"/>
+      <unit id="imglib2.source" version="0.0.0"/>
+      <unit id="jama.source" version="0.0.0"/>
+      <unit id="jdom2.source" version="0.0.0"/>
+      <unit id="jep.source" version="0.0.0"/>
+      <unit id="knip-tmp-imglib2-ops.source" version="0.0.0"/>
+      <unit id="miglayout-swing.source" version="0.0.0"/>
+      <unit id="miglayout.source" version="0.0.0"/>
+      <unit id="scifio-lifesci.source" version="0.0.0"/>
+      <unit id="scifio.source" version="0.0.0"/>
+      <unit id="scijava-cache.source" version="0.0.0"/>
+      <unit id="scijava-common.source" version="0.0.0"/>
+      <unit id="scijava-log-slf4j.source" version="0.0.0"/>
+      <unit id="scijava-plugins-commands.source" version="0.0.0"/>
+      <unit id="scijava-plugins-text-markdown.source" version="0.0.0"/>
+      <unit id="scijava-plugins-text-plain.source" version="0.0.0"/>
+      <unit id="scijava-ui-awt.source" version="0.0.0"/>
+      <unit id="scijava-ui-swing.source" version="0.0.0"/>
+      <unit id="scripting-beanshell.source" version="0.0.0"/>
+      <unit id="scripting-clojure.source" version="0.0.0"/>
+      <unit id="scripting-groovy.source" version="0.0.0"/>
+      <unit id="scripting-java.source" version="0.0.0"/>
+      <unit id="scripting-javascript.source" version="0.0.0"/>
+      <unit id="scripting-jython.source" version="0.0.0"/>
+      <unit id="slf4j-api.source" version="0.0.0"/>
+      <unit id="slf4j-log4j12.source" version="0.0.0"/>
+      <unit id="spim_data.source" version="0.0.0"/>
+      <unit id="trove4j.source" version="0.0.0"/>
+      <unit id="ui-behaviour.source" version="0.0.0"/>
+      <unit id="xml-apis.source" version="0.0.0"/>
       <repository id="knip-externals" location="https://community.knime.org/download/knip-externals-trunk"/>
     </location>
   </locations>

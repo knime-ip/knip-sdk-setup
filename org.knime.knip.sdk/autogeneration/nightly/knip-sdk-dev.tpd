@@ -92,4 +92,51 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	jdom2 lazy
 	ui-behaviour lazy
 	spim_data lazy
+	args4j.source lazy
+	bigdataviewer-core.source lazy
+	bigdataviewer-vistools.source lazy
+	commons-collections.source lazy
+	commons-math3.source lazy
+	gson.source lazy
+	guava.source lazy
+	ij.source lazy
+	imagej-common.source lazy
+	imagej-deprecated.source lazy
+	imagej-ops.source lazy
+	imagej-plugins-commands.source lazy
+	imagej-ui-awt.source lazy
+	imglib2-algorithm-fft.source lazy
+	imglib2-algorithm.source lazy
+	imglib2-realtransform.source lazy
+	imglib2-roi.source lazy
+	imglib2-ui.source lazy
+	imglib2.source lazy
+	jama.source lazy
+	jdom2.source lazy
+	jep.source lazy
+	knip-tmp-imglib2-ops.source lazy
+	miglayout-swing.source lazy
+	miglayout.source lazy
+	scifio-lifesci.source lazy
+	scifio.source lazy
+	scijava-cache.source lazy
+	scijava-common.source lazy
+	scijava-log-slf4j.source lazy
+	scijava-plugins-commands.source lazy
+	scijava-plugins-text-markdown.source lazy
+	scijava-plugins-text-plain.source lazy
+	scijava-ui-awt.source lazy
+	scijava-ui-swing.source lazy
+	scripting-beanshell.source lazy
+	scripting-clojure.source lazy
+	scripting-groovy.source lazy
+	scripting-java.source lazy
+	scripting-javascript.source lazy
+	scripting-jython.source lazy
+	slf4j-api.source lazy
+	slf4j-log4j12.source lazy
+	spim_data.source lazy
+	trove4j.source lazy
+	ui-behaviour.source lazy
+	xml-apis.source lazy
 }
