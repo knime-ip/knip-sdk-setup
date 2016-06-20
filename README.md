@@ -11,9 +11,13 @@ We provide different target definitions:
 	KNIME 2.12 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-3.0-full__:
 	KNIME 3.0 with the latest release of the compatible KNIP plugins.
+  * __knip-sdk-3.1-full__:
+	KNIME 3.1 with the latest release of the compatible KNIP plugins.
 * __nightly__:
-  * __knip-sdk-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
-It contains the most recent KNIME and all required dependencies for developing KNIP itself. 
+  * __knip-sdk-nightly-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
+It contains the most recent KNIME and all required dependencies for developing KNIP itself.
+  * __knip-sdk-nightly-full__ For people who want to test the latest nightly build from their IDE, contains the latest nightly build of all KNIP plugins.
+  * __knip-sdk-knime-nightly-dev__ A version of _knip-sdk-nightly-dev_ that is targeting the latest nightly build of KNIME, note that you will need to authenticate with an elegible KNIME community account to be able to use this target definition.
 
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
@@ -26,10 +30,10 @@ If you need additional plugins you can easily edit the software sites in the tar
 - Wait until eclipse has resolved the target platform and click on __Set as Target Platform__ (upper-right corner)
 - The ``knip-stable-launch-configuration`` and ``knip-nightly-launch-configuration`` should now be available to you in the debug and run configuration dialogs (under Eclipse Application).
 - The debug configuration assumes you have 4GB RAM available, if you want to use a different amount just  change the value of the ``-Xmx4g`` vm argument in the _Arguments_ tab of the ``knip-launch-configuration``.
-- Remember to often click the ``update`` and ``reload`` buttons in the target definition interface to stay up to date with the nightly builds. 
+- Remember to often click the ``update`` and ``reload`` buttons in the target definition interface to stay up to date with the nightly builds.
 
 ## FAQ
-- _Eclipse complains that some plugin can't be installed and the target definition file seems to have many errors in it!_ 
+- _Eclipse complains that some plugin can't be installed and the target definition file seems to have many errors in it!_
 Sadly eclipse seems to do that from time to time, in most cases clicking ``reload`` and ``update`` a few times solves that issue. If not you might need to update this repository as the target platform has changed.
 
 ## Guidelines
