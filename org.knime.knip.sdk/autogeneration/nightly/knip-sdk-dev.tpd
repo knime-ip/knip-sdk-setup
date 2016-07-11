@@ -1,142 +1,66 @@
 target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
 requirements
 
-location knime "https://update.knime.org/analytics-platform/3.1/" {
-	com.knime.features.enterprise.client.exampleserver.feature.group lazy
-	org.knime.features.base.feature.group lazy
-	org.knime.features.base.filehandling.feature.group lazy
-	org.knime.features.core.streaming.feature.group lazy
-	org.knime.features.distmatrix.feature.group lazy
-	org.knime.features.ensembles.feature.group lazy
-	org.knime.features.ext.jep.feature.group lazy
-	org.knime.features.optimization.feature.group lazy
-	org.knime.features.python.feature.group lazy
-	org.knime.features.r.feature.group lazy
-	org.knime.features.stats2.feature.group lazy
-	org.knime.features.testingapplication.feature.group lazy
-	org.knime.features.virtual.feature.group lazy
-	org.knime.features.xml.feature.group lazy
-	org.knime.features.js.views.feature.group lazy
-	org.knime.features.js.quickforms.feature.group lazy
-	org.knime.features.quickform.legacy.feature.group lazy
-	org.knime.features.activelearning.feature.group lazy
-	org.knime.features.explorer.view.feature.group lazy
+include "knip-sdk-externals.tpd"
 
+location knime "https://update.knime.org/analytics-platform/3.2/" {
+	org.knime.features.ext.osm.feature.group lazy
+	org.knime.features.stats2.feature.group lazy
+	org.knime.features.ext.itemset.feature.group lazy
+	org.knime.product.desktop lazy
+	org.knime.features.ext.spotfire.feature.group lazy
+	org.knime.features.activelearning.feature.group lazy
+	com.knime.features.reporting.designer.feature.group lazy
+	org.knime.features.quickform.legacy.feature.group lazy
+	org.knime.features.mongodb.feature.group lazy
+	org.knime.features.testingapplication.feature.group lazy
+	org.knime.features.base.pmml.translation.feature.group lazy
+	org.knime.features.exttool.feature.group lazy
+	org.knime.features.optimization.feature.group lazy
+	org.knime.features.ext.jfreechart.feature.group lazy
+	org.knime.features.datageneration.feature.group lazy
+	org.knime.features.ext.chem.tools.feature.group lazy
+	org.knime.features.ext.dl4j.feature.group lazy
+	org.knime.features.base.widedata.feature.group lazy
+	org.knime.features.jpmml.feature.group lazy
+	org.knime.features.semanticweb.feature.group lazy
+	org.knime.features.network.feature.group lazy
+	org.knime.features.ext.parso.feature.group lazy
+	org.knime.features.ext.textprocessing.dl4j.feature.group lazy
+	org.knime.features.virtual.feature.group lazy
+	org.knime.features.js.views.feature.group lazy
+	org.knime.features.ext.webservice.client.ppilot.feature.group lazy
+	org.knime.features.neighborgram.feature.group lazy
+	org.knime.features.ext.perl.feature.group lazy
+	org.knime.features.ext.birt.feature.group lazy
+	org.knime.features.ext.md.feature.group lazy
+	org.knime.features.chem.types.feature.group lazy
+	org.knime.features.network.distmatrix.feature.group lazy
+	org.knime.features.core.streaming.feature.group lazy
+	org.knime.features.arima.feature.group lazy
+	org.knime.features.ext.exttool.feature.group lazy
+	org.knime.features.ext.jython.feature.group lazy
+	org.knime.features.ext.lucene.feature.group lazy
+	org.knime.features.rest.feature.group lazy
+	org.knime.features.ext.webservice.client.feature.group lazy
+	org.knime.features.ext.r.bin.feature.group lazy
+	org.knime.features.webanalytics.feature.group lazy
+	org.knime.features.ext.textprocessing.feature.group lazy
+	org.knime.features.ext.svg.feature.group lazy
+	org.knime.features.python.feature.group lazy
+	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.r.feature.group lazy
+	org.knime.features.ext.socialmedia.feature.group lazy
+	org.knime.features.base.pmml.feature.group lazy
+	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.base.pmml2.feature.group lazy
+	org.knime.features.base.filehandling.feature.group lazy
 
 	// eclipse pde für scripting plugin
 	org.eclipse.pde.api.tools lazy
 }
 
 // Server Client plugins:
-location knime-server "http://update.knime.org/server/4.2" {
-	com.knime.features.enterprise.client.feature.group lazy
+location knime-server "http://update.knime.org/server/4.3" {
 	com.knime.features.explorer.serverspace.feature.group lazy
-}
-
-location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
-	a.jre.javase lazy
-	com.fifesoft.autocomplete lazy
-	com.fifesoft.languagesupport lazy
-	com.fifesoft.rsyntaxtextarea lazy
-	xml-apis lazy
-	guava lazy
-	imagej-deprecated lazy
-	jython-shaded lazy
-	scijava-cache lazy
-	scripting-javascript lazy
-	args4j lazy
-	commons-collections lazy
-	ij lazy
-	imagej-common lazy
-	imagej-ops lazy
-	imagej-plugins-commands lazy
-	imagej-ui-awt lazy
-	imagej-ui-swing lazy
-	imglib2 lazy
-	imglib2-algorithm lazy
-	imglib2-algorithm-fft lazy
-	imglib2-algorithm-gpl lazy
-	imglib2-ij lazy
-	imglib2-realtransform lazy
-	imglib2-roi lazy
-	imglib2-ui lazy
-	jama lazy
-	jep lazy
-	knip-tmp-imglib2-ops lazy
-	knip-trackmate-fork lazy
-	miglayout lazy
-	miglayout-swing lazy
-	scifio lazy
-	scifio-bf-compat lazy
-	scifio-lifesci lazy
-	scijava-common lazy
-	scijava-log-slf4j lazy
-	scijava-plugins-commands lazy
-	scijava-plugins-text-markdown lazy
-	scijava-plugins-text-plain lazy
-	scijava-ui-awt lazy
-	scijava-ui-swing lazy
-	scripting-java lazy
-	scripting-jython lazy
-	slf4j-api lazy
-	slf4j-log4j12 lazy
-	trove4j lazy
-	commons-math3 lazy
-	scripting-beanshell lazy
-	scripting-clojure lazy
-	scripting-groovy lazy
-	scripting-jruby lazy
-	bigdataviewer-core lazy
-	bigdataviewer-vistools lazy
-	gson lazy
-	jdom2 lazy
-	ui-behaviour lazy
-	spim_data lazy
-	args4j.source lazy
-	bigdataviewer-core.source lazy
-	bigdataviewer-vistools.source lazy
-	commons-collections.source lazy
-	commons-math3.source lazy
-	gson.source lazy
-	guava.source lazy
-	ij.source lazy
-	imagej-common.source lazy
-	imagej-deprecated.source lazy
-	imagej-ops.source lazy
-	imagej-plugins-commands.source lazy
-	imagej-ui-awt.source lazy
-	imglib2-algorithm-fft.source lazy
-	imglib2-algorithm.source lazy
-	imglib2-realtransform.source lazy
-	imglib2-roi.source lazy
-	imglib2-ui.source lazy
-	imglib2.source lazy
-	jama.source lazy
-	jdom2.source lazy
-	jep.source lazy
-	knip-tmp-imglib2-ops.source lazy
-	miglayout-swing.source lazy
-	miglayout.source lazy
-	scifio-lifesci.source lazy
-	scifio.source lazy
-	scijava-cache.source lazy
-	scijava-common.source lazy
-	scijava-log-slf4j.source lazy
-	scijava-plugins-commands.source lazy
-	scijava-plugins-text-markdown.source lazy
-	scijava-plugins-text-plain.source lazy
-	scijava-ui-awt.source lazy
-	scijava-ui-swing.source lazy
-	scripting-beanshell.source lazy
-	scripting-clojure.source lazy
-	scripting-groovy.source lazy
-	scripting-java.source lazy
-	scripting-javascript.source lazy
-	scripting-jython.source lazy
-	slf4j-api.source lazy
-	slf4j-log4j12.source lazy
-	spim_data.source lazy
-	trove4j.source lazy
-	ui-behaviour.source lazy
-	xml-apis.source lazy
 }
