@@ -13,6 +13,8 @@ We provide different target definitions:
 	KNIME 3.0 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-3.1-full__:
 	KNIME 3.1 with the latest release of the compatible KNIP plugins.
+  * __knip-sdk-3.2-full__:
+	KNIME 3.2 with the latest release of the compatible KNIP plugins.
 * __nightly__:
   * __knip-sdk-nightly-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
 It contains the most recent KNIME and all required dependencies for developing KNIP itself.
