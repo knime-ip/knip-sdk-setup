@@ -3,24 +3,57 @@ target "KNIP Developer SDK: KNIME + External Dependencies for KNIP "
 with source requirements
 
 location knime "https://jenkins.knime.org/download/trunk/" {
-	com.knime.features.enterprise.client.exampleserver.feature.group lazy
-	org.knime.features.base.feature.group lazy
-	org.knime.features.base.filehandling.feature.group lazy
-	org.knime.features.core.streaming.feature.group lazy
-	org.knime.features.distmatrix.feature.group lazy
-	org.knime.features.ensembles.feature.group lazy
-	org.knime.features.ext.jep.feature.group lazy
-	org.knime.features.optimization.feature.group lazy
-	org.knime.features.python.feature.group lazy
-	org.knime.features.r.feature.group lazy
+	org.knime.features.ext.osm.feature.group lazy
 	org.knime.features.stats2.feature.group lazy
-	org.knime.features.testingapplication.feature.group lazy
-	org.knime.features.virtual.feature.group lazy
-	org.knime.features.xml.feature.group lazy
-	org.knime.features.js.views.feature.group lazy
-	org.knime.features.js.quickforms.feature.group lazy
-	org.knime.features.quickform.legacy.feature.group lazy
+	org.knime.features.ext.itemset.feature.group lazy
+	org.knime.product.desktop lazy
+	org.knime.features.ext.spotfire.feature.group lazy
 	org.knime.features.activelearning.feature.group lazy
+	com.knime.features.reporting.designer.feature.group lazy
+	org.knime.features.quickform.legacy.feature.group lazy
+	org.knime.features.mongodb.feature.group lazy
+	org.knime.features.testingapplication.feature.group lazy
+	org.knime.features.base.pmml.translation.feature.group lazy
+	org.knime.features.exttool.feature.group lazy
+	org.knime.features.optimization.feature.group lazy
+	org.knime.features.ext.jfreechart.feature.group lazy
+	org.knime.features.datageneration.feature.group lazy
+	org.knime.features.ext.chem.tools.feature.group lazy
+	org.knime.features.ext.dl4j.feature.group lazy
+	org.knime.features.base.widedata.feature.group lazy
+	org.knime.features.jpmml.feature.group lazy
+	org.knime.features.semanticweb.feature.group lazy
+	org.knime.features.network.feature.group lazy
+	org.knime.features.ext.parso.feature.group lazy
+	org.knime.features.ext.textprocessing.dl4j.feature.group lazy
+	org.knime.features.virtual.feature.group lazy
+	org.knime.features.js.views.feature.group lazy
+	org.knime.features.ext.webservice.client.ppilot.feature.group lazy
+	org.knime.features.neighborgram.feature.group lazy
+	org.knime.features.ext.perl.feature.group lazy
+	org.knime.features.ext.birt.feature.group lazy
+	org.knime.features.ext.md.feature.group lazy
+	org.knime.features.chem.types.feature.group lazy
+	org.knime.features.network.distmatrix.feature.group lazy
+	org.knime.features.core.streaming.feature.group lazy
+	org.knime.features.arima.feature.group lazy
+	org.knime.features.ext.exttool.feature.group lazy
+	org.knime.features.ext.jython.feature.group lazy
+	org.knime.features.ext.lucene.feature.group lazy
+	org.knime.features.rest.feature.group lazy
+	org.knime.features.ext.webservice.client.feature.group lazy
+	org.knime.features.ext.r.bin.feature.group lazy
+	org.knime.features.webanalytics.feature.group lazy
+	org.knime.features.ext.textprocessing.feature.group lazy
+	org.knime.features.ext.svg.feature.group lazy
+	org.knime.features.python.feature.group lazy
+	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.r.feature.group lazy
+	org.knime.features.ext.socialmedia.feature.group lazy
+	org.knime.features.base.pmml.feature.group lazy
+	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.base.pmml2.feature.group lazy
+	org.knime.features.base.filehandling.feature.group lazy
 
 	// Server client plugins	
 	com.knime.features.enterprise.client.feature.group lazy
