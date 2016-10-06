@@ -1,6 +1,6 @@
 target "Full KNIP SDK: KNIP + KNIME + External Dependencies"
 
-include "knip-sdk-dev.tpd"
+include "knip-sdk-nightly-dev.tpd"
 
 with source requirements
 

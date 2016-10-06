@@ -106,7 +106,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scripting-groovy.source lazy
 	scripting-java.source lazy
 	scripting-javascript.source lazy
-	scripting-jython.source lazy
 	slf4j-api.source lazy
 	slf4j-log4j12.source lazy
 	spim_data.source lazy
