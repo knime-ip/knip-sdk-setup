@@ -3,7 +3,7 @@ requirements
 
 include "knip-sdk-externals.tpd"
 
-location knime "https://update.knime.org/analytics-platform/3.2/" {
+location knime "https://update.knime.org/analytics-platform/3.3/" {
 	org.knime.features.ext.osm.feature.group lazy
 	org.knime.features.stats2.feature.group lazy
 	org.knime.features.ext.itemset.feature.group lazy
@@ -58,9 +58,4 @@ location knime "https://update.knime.org/analytics-platform/3.2/" {
 
 	// eclipse pde für scripting plugin
 	org.eclipse.pde.api.tools lazy
-}
-
-// Server Client plugins:
-location knime-server "http://update.knime.org/server/4.3" {
-	com.knime.features.explorer.serverspace.feature.group lazy
 }

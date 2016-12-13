@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1475766859">
+<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1481625495">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -168,11 +168,7 @@
       <unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="https://update.knime.org/analytics-platform/3.2/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="com.knime.features.explorer.serverspace.feature.group" version="0.0.0"/>
-      <repository id="knime-server" location="http://update.knime.org/server/4.3"/>
+      <repository id="knime" location="https://update.knime.org/analytics-platform/3.3/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.knime.knip.cellprofiler.feature.feature.group" version="0.0.0"/>
