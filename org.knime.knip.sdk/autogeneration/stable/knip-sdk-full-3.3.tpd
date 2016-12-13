@@ -1,0 +1,78 @@
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies" with source
+requirements
+
+location knime "https://update.knime.org/analytics-platform/3.3/" {
+	org.knime.features.ext.osm.feature.group lazy
+	org.knime.features.stats2.feature.group lazy
+	org.knime.features.ext.itemset.feature.group lazy
+	org.knime.product.desktop lazy
+	org.knime.features.ext.spotfire.feature.group lazy
+	org.knime.features.activelearning.feature.group lazy
+	com.knime.features.reporting.designer.feature.group lazy
+	org.knime.features.quickform.legacy.feature.group lazy
+	org.knime.features.mongodb.feature.group lazy
+	org.knime.features.testingapplication.feature.group lazy
+	org.knime.features.base.pmml.translation.feature.group lazy
+	org.knime.features.exttool.feature.group lazy
+	org.knime.features.optimization.feature.group lazy
+	org.knime.features.ext.jfreechart.feature.group lazy
+	org.knime.features.datageneration.feature.group lazy
+	org.knime.features.ext.chem.tools.feature.group lazy
+	org.knime.features.ext.dl4j.feature.group lazy
+	org.knime.features.base.widedata.feature.group lazy
+	org.knime.features.jpmml.feature.group lazy
+	org.knime.features.semanticweb.feature.group lazy
+	org.knime.features.network.feature.group lazy
+	org.knime.features.ext.parso.feature.group lazy
+	org.knime.features.ext.textprocessing.dl4j.feature.group lazy
+	org.knime.features.virtual.feature.group lazy
+	org.knime.features.js.views.feature.group lazy
+	org.knime.features.ext.webservice.client.ppilot.feature.group lazy
+	org.knime.features.neighborgram.feature.group lazy
+	org.knime.features.ext.perl.feature.group lazy
+	org.knime.features.ext.birt.feature.group lazy
+	org.knime.features.ext.md.feature.group lazy
+	org.knime.features.chem.types.feature.group lazy
+	org.knime.features.network.distmatrix.feature.group lazy
+	org.knime.features.core.streaming.feature.group lazy
+	org.knime.features.arima.feature.group lazy
+	org.knime.features.ext.exttool.feature.group lazy
+	org.knime.features.ext.jython.feature.group lazy
+	org.knime.features.ext.lucene.feature.group lazy
+	org.knime.features.rest.feature.group lazy
+	org.knime.features.ext.webservice.client.feature.group lazy
+	org.knime.features.ext.r.bin.feature.group lazy
+	org.knime.features.webanalytics.feature.group lazy
+	org.knime.features.ext.textprocessing.feature.group lazy
+	org.knime.features.ext.svg.feature.group lazy
+	org.knime.features.python.feature.group lazy
+	org.knime.features.distmatrix.feature.group lazy
+	org.knime.features.r.feature.group lazy
+	org.knime.features.ext.socialmedia.feature.group lazy
+	org.knime.features.base.pmml.feature.group lazy
+	org.knime.features.ext.weka_3.7.feature.group lazy
+	org.knime.features.base.pmml2.feature.group lazy
+	org.knime.features.base.filehandling.feature.group lazy
+
+	// eclipse pde for scripting plugin
+	org.eclipse.pde.api.tools lazy
+}
+
+location knime-community-trusted "http://update.knime.org/community-contributions/trusted/3.3" {
+	org.knime.knip.feature.feature.group [1.5.3,1.5.4)
+	org.knime.knip.omero.feature.feature.group [0.10.0,0.10.1)
+	org.knime.knip.testing.feature.feature.group  [1.5.3,1.5.4)
+}
+
+// Server Client plugins:
+//location knime-server "http://update.knime.org/server/4.3" {
+//	com.knime.features.explorer.serverspace.feature.group lazy
+//}
+
+location knime-community "http://update.knime.org/community-contributions/3.3" {
+	org.knime.knip.cellprofiler.feature.feature.group [0.3.0.v201607040801,0.3.0.v201607040801]
+	org.knime.knip.ilastik.feature.feature.group [0.2.2.v201608291529,0.2.2.v201608291529]
+	org.knime.knip.knimepython.feature.feature.group [1.0.3.v201609261354,1.0.3.v201609261354]
+	org.knime.knip.tess4j.feature.feature.group [1.3.0.v201607051537,1.3.0.v201607051537]
+	org.knime.knip.imagej.feature.feature.group [0.11.1.v201610060936,0.11.1.v201610060936]
+}
