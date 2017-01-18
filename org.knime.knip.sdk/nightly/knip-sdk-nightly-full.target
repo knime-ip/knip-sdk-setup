@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1481732830">
+<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1484746626">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -167,6 +167,8 @@
       <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.filehandling.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
+      <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.server.ws.client.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>

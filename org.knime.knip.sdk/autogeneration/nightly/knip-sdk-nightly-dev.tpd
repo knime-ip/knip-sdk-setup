@@ -55,7 +55,10 @@ location knime "https://update.knime.org/analytics-platform/3.3/" {
 	org.knime.features.ext.weka_3.7.feature.group lazy
 	org.knime.features.base.pmml2.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
+	org.knime.features.base.feature.group lazy
 	
+	// Server client stuff
+	com.knime.features.enterprise.client.feature.group lazy
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
 	com.knime.features.enterprise.server.ws.client.feature.group lazy
 
