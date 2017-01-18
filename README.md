@@ -5,6 +5,7 @@ This repository collects the tools to facilitate the development of KNIME Nodes 
 ## Target Definitions
 We provide different target definitions:
 * __stable__
+   These target definitions allow starting and debugging released versions of KNIME / KNIP. This is useful to reproduce the environments of users.
   * __knip-sdk-2.11-full__:
     KNIME 2.11 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-2.12-full__:
@@ -14,6 +15,8 @@ We provide different target definitions:
   * __knip-sdk-3.1-full__:
 	KNIME 3.1 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-3.2-full__:
+	KNIME 3.2 with the latest release of the compatible KNIP plugins.
+  * __knip-sdk-3.3-full__:
 	KNIME 3.2 with the latest release of the compatible KNIP plugins.
 * __nightly__:
   * __knip-sdk-nightly-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
