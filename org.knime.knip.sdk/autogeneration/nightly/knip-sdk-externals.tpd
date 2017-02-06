@@ -59,13 +59,11 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	spim_data lazy
 	jfreechart lazy
 	imagej-updater lazy
-	scijava-expression-parser lazy
 	script-editor lazy
 	imagej-updater.source lazy
 	com.fifesoft.languagesupport lazy
 	com.fifesoft.rsyntaxtextarea lazy
 	jfreechart.source lazy
-	scijava-expression-parser.source lazy
 	script-editor.source lazy
 	args4j.source lazy
 	bigdataviewer-core.source lazy

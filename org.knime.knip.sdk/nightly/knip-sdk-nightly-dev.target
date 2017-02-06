@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1484746624">
+<target name="KNIP Developer SDK: KNIME + External Dependencies for KNIP " sequenceNumber="1486398439">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -60,13 +60,11 @@
       <unit id="spim_data" version="0.0.0"/>
       <unit id="jfreechart" version="0.0.0"/>
       <unit id="imagej-updater" version="0.0.0"/>
-      <unit id="scijava-expression-parser" version="0.0.0"/>
       <unit id="script-editor" version="0.0.0"/>
       <unit id="imagej-updater.source" version="0.0.0"/>
       <unit id="com.fifesoft.languagesupport" version="0.0.0"/>
       <unit id="com.fifesoft.rsyntaxtextarea" version="0.0.0"/>
       <unit id="jfreechart.source" version="0.0.0"/>
-      <unit id="scijava-expression-parser.source" version="0.0.0"/>
       <unit id="script-editor.source" version="0.0.0"/>
       <unit id="args4j.source" version="0.0.0"/>
       <unit id="bigdataviewer-core.source" version="0.0.0"/>
