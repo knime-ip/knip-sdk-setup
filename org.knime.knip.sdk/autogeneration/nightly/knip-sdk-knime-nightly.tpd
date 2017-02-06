@@ -55,6 +55,10 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	org.knime.features.base.pmml2.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
 
+	// cloud file access
+	org.knime.features.cloud.azure.feature.group lazy
+	org.knime.features.cloud.aws.feature.group lazy
+
 	// Server client plugins	
 	com.knime.features.enterprise.client.feature.group lazy
 	com.knime.features.explorer.serverspace.feature.group lazy

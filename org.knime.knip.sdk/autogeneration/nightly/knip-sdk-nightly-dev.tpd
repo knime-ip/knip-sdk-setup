@@ -56,6 +56,10 @@ location knime "https://update.knime.org/analytics-platform/3.3/" {
 	org.knime.features.base.pmml2.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
 	org.knime.features.base.feature.group lazy
+
+	// cloud file access
+	org.knime.features.cloud.azure.feature.group lazy
+	org.knime.features.cloud.aws.feature.group lazy
 	
 	// Server client stuff
 	com.knime.features.enterprise.client.feature.group lazy
