@@ -22,7 +22,6 @@ We provide different target definitions:
   * __knip-sdk-nightly-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
 It contains the most recent KNIME and all required dependencies for developing KNIP itself.
   * __knip-sdk-nightly-full__ For people who want to test the latest nightly build from their IDE, contains the latest nightly build of all KNIP plugins.
-  * __knip-sdk-knime-nightly-dev__ A version of _knip-sdk-nightly-dev_ that is targeting the latest nightly build of KNIME, note that you will need to authenticate with an elegible KNIME community account to be able to use this target definition.
 
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
