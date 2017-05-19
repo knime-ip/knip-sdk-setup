@@ -1,7 +1,6 @@
 target "KNIP Developer SDK: External Dependencies for KNIP " with source
 requirements
 
-
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
 	a.jre.javase lazy
 	xml-apis lazy
@@ -35,7 +34,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scifio-bf-compat lazy
 	scifio-lifesci lazy
 	scijava-common lazy
-	scijava-log-slf4j lazy
 	scijava-plugins-commands lazy
 	scijava-plugins-text-markdown lazy
 	scijava-plugins-text-plain lazy
@@ -43,8 +41,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scijava-ui-swing lazy
 	scripting-java lazy
 	scripting-jython lazy
-	slf4j-api lazy
-	slf4j-log4j12 lazy
 	trove4j lazy
 	commons-math3 lazy
 	scripting-beanshell lazy
@@ -60,6 +56,8 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	jfreechart lazy
 	imagej-updater lazy
 	script-editor lazy
+	parsington lazy
+	parsington.source lazy
 	imagej-updater.source lazy
 	com.fifesoft.languagesupport lazy
 	com.fifesoft.rsyntaxtextarea lazy
@@ -93,7 +91,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scifio.source lazy
 	scijava-cache.source lazy
 	scijava-common.source lazy
-	scijava-log-slf4j.source lazy
 	scijava-plugins-commands.source lazy
 	scijava-plugins-text-markdown.source lazy
 	scijava-plugins-text-plain.source lazy
@@ -104,8 +101,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scripting-groovy.source lazy
 	scripting-java.source lazy
 	scripting-javascript.source lazy
-	slf4j-api.source lazy
-	slf4j-log4j12.source lazy
 	spim_data.source lazy
 	trove4j.source lazy
 	ui-behaviour.source lazy
