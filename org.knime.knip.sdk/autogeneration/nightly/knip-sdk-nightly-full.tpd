@@ -5,7 +5,7 @@ include "knip-sdk-nightly-dev.tpd"
 with source requirements
 
 location knime-community-nightly "http://tech.knime.org/update/community-contributions/trunk" {
-	org.knime.knip.cellprofiler.feature.feature.group lazy
+	// org.knime.knip.cellprofiler.feature.feature.group lazy
 	org.knime.knip.feature.feature.group lazy
 	org.knime.knip.omero.feature.feature.group lazy
 	org.knime.knip.testing.feature.feature.group lazy
