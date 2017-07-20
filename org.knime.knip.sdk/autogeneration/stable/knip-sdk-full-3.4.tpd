@@ -1,7 +1,5 @@
-target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies" with source
 requirements
-
-include "knip-sdk-externals.tpd"
 
 location knime "https://update.knime.org/analytics-platform/3.4/" {
 	org.knime.features.ext.osm.feature.group lazy
@@ -55,17 +53,26 @@ location knime "https://update.knime.org/analytics-platform/3.4/" {
 	org.knime.features.ext.weka_3.7.feature.group lazy
 	org.knime.features.base.pmml2.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
-	org.knime.features.base.feature.group lazy
 
-	// cloud file access
-	org.knime.features.cloud.azure.feature.group lazy
-	org.knime.features.cloud.aws.feature.group lazy
-	
-	// Server client stuff
-	com.knime.features.enterprise.client.feature.group lazy
-	com.knime.features.enterprise.client.exampleserver.feature.group lazy
-	com.knime.features.enterprise.server.ws.client.feature.group lazy
-
-	// eclipse pde für scripting plugin
+	// eclipse pde for scripting plugin
 	org.eclipse.pde.api.tools lazy
+}
+
+location knime-community-trusted "http://update.knime.org/community-contributions/trusted/3.4" {
+	org.knime.knip.feature.feature.group [1.5.4,1.5.5)
+	org.knime.knip.omero.feature.feature.group [0.10.0,0.10.1)
+	org.knime.knip.testing.feature.feature.group [1.5.4,1.5.5)
+}
+
+// Server Client plugins:
+//location knime-server "http://update.knime.org/server/4.3" {
+//	com.knime.features.explorer.serverspace.feature.group lazy
+//}
+
+location knime-community "http://update.knime.org/community-contributions/3.4" {
+	org.knime.knip.cellprofiler.feature.feature.group  [0.3.0,0.3.1)
+	org.knime.knip.ilastik.feature.feature.group [0.3.0,0.3.1)
+	org.knime.knip.knimepython.feature.feature.group [1.0.3,1.0.4)
+	org.knime.knip.tess4j.feature.feature.group [1.3.0,1.3.1)
+	org.knime.knip.imagej.feature.feature.group [0.11.2,0.11.3)
 }
