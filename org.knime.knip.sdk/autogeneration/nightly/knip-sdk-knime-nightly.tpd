@@ -1,4 +1,4 @@
-target "KNIP Developer SDK: KNIME + External Dependencies for KNIP "
+target "KNIP Developer SDK: KNIME Nightly + External Dependencies for KNIP "
 
 with source requirements
 

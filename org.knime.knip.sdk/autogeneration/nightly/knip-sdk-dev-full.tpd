@@ -1,10 +1,10 @@
 target "Full KNIP SDK: KNIP + KNIME + External Dependencies"
 
-include "knip-sdk-nightly-dev.tpd"
+include "knip-sdk-dev.tpd"
 
 with source requirements
 
-location knime-community-nightly "http://tech.knime.org/update/community-contributions/trunk" {
+location knime-community-nightly "https://update.knime.org/community-contributions/trunk/" {
 	// org.knime.knip.cellprofiler.feature.feature.group lazy
 	org.knime.knip.feature.feature.group lazy
 	org.knime.knip.omero.feature.feature.group lazy

@@ -1,4 +1,4 @@
-target "KNIP Developer SDK: KNIME + External Dependencies for KNIP " with source
+target "KNIP Developer SDK: KNIME Stable + External Dependencies for KNIP " with source
 requirements
 
 include "knip-sdk-externals.tpd"
