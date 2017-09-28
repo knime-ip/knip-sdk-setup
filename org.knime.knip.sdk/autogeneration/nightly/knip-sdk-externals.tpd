@@ -12,6 +12,7 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	args4j lazy
 	commons-collections lazy
 	ij lazy
+	ilastik4ij lazy
 	imagej-common lazy
 	imagej-ops lazy
 	imagej-plugins-commands lazy
@@ -71,6 +72,7 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	gson.source lazy
 	guava.source lazy
 	ij.source lazy
+	ilastik4ij.source lazy
 	imagej-common.source lazy
 	imagej-deprecated.source lazy
 	imagej-ops.source lazy
