@@ -18,15 +18,18 @@ We provide different target definitions:
 	KNIME 3.2 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-3.3-full__:
 	KNIME 3.3 with the latest release of the compatible KNIP plugins.
+  * __knip-sdk-3.4-full__:
+	KNIME 3.4 with the latest release of the compatible KNIP plugins.
 * __nightly__:
-  * __knip-sdk-nightly-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
+  * __knip-sdk-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
 It contains the most recent KNIME and all required dependencies for developing KNIP itself.
-  * __knip-sdk-nightly-full__ For people who want to test the latest nightly build from their IDE, contains the latest nightly build of all KNIP plugins.
+  * __knip-sdk-full__ For people who want to test the latest nightly build from their IDE, contains the latest nightly build of all KNIP plugins.
+  * __knip-sdk-knime-nightly__ Same as _knip-sdk-dev_ but targets the latest nightly build of KNIME itself.
 
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
 ## Getting started with KNIP development
-- Download and install [Eclipse 4.6](http://eclipse.org/home/index.php)
+- Download and install [Eclipse 4.7](http://eclipse.org/home/index.php)
 - Install the __Eclipse Plug-in Development Environment__ plugin from the __The Eclipse Project Updates__ update-site
 - Clone this repository using git clone https://github.com/knime-ip/knip-sdk-setup
 - Import the contained projects (File -> Import -> General -> Existing Projects) into Workspace
