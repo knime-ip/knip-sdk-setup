@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME Nightly + External Dependencies for KNIP " sequenceNumber="1506609827">
+<target name="KNIP Developer SDK: KNIME Nightly + External Dependencies for KNIP " sequenceNumber="1510052462">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
@@ -65,7 +65,6 @@
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
       <unit id="xml-apis" version="0.0.0"/>
-      <unit id="guava" version="0.0.0"/>
       <unit id="imagej-deprecated" version="0.0.0"/>
       <unit id="jython-shaded" version="0.0.0"/>
       <unit id="scijava-cache" version="0.0.0"/>
@@ -104,7 +103,6 @@
       <unit id="scripting-java" version="0.0.0"/>
       <unit id="scripting-jython" version="0.0.0"/>
       <unit id="trove4j" version="0.0.0"/>
-      <unit id="commons-math3" version="0.0.0"/>
       <unit id="scripting-beanshell" version="0.0.0"/>
       <unit id="scripting-clojure" version="0.0.0"/>
       <unit id="scripting-groovy" version="0.0.0"/>
@@ -129,9 +127,7 @@
       <unit id="bigdataviewer-core.source" version="0.0.0"/>
       <unit id="bigdataviewer-vistools.source" version="0.0.0"/>
       <unit id="commons-collections.source" version="0.0.0"/>
-      <unit id="commons-math3.source" version="0.0.0"/>
       <unit id="gson.source" version="0.0.0"/>
-      <unit id="guava.source" version="0.0.0"/>
       <unit id="ij.source" version="0.0.0"/>
       <unit id="ilastik4ij.source" version="0.0.0"/>
       <unit id="imagej-common.source" version="0.0.0"/>

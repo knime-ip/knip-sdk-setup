@@ -4,7 +4,6 @@ requirements
 location knip-externals "https://community.knime.org/download/knip-externals-trunk" {
 	a.jre.javase lazy
 	xml-apis lazy
-	guava lazy
 	imagej-deprecated lazy
 	jython-shaded lazy
 	scijava-cache lazy
@@ -43,7 +42,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scripting-java lazy
 	scripting-jython lazy
 	trove4j lazy
-	commons-math3 lazy
 	scripting-beanshell lazy
 	scripting-clojure lazy
 	scripting-groovy lazy
@@ -68,9 +66,7 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	bigdataviewer-core.source lazy
 	bigdataviewer-vistools.source lazy
 	commons-collections.source lazy
-	commons-math3.source lazy
 	gson.source lazy
-	guava.source lazy
 	ij.source lazy
 	ilastik4ij.source lazy
 	imagej-common.source lazy
