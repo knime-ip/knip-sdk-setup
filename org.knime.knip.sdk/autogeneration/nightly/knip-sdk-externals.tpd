@@ -25,7 +25,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	imglib2-realtransform lazy
 	imglib2-roi lazy
 	imglib2-ui lazy
-	jama lazy
 	jep lazy
 	knip-tmp-imglib2-ops lazy
 	knip-trackmate-fork lazy
@@ -41,15 +40,12 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scijava-ui-swing lazy
 	scripting-java lazy
 	scripting-jython lazy
-	trove4j lazy
 	scripting-beanshell lazy
 	scripting-clojure lazy
 	scripting-groovy lazy
 	scripting-jruby lazy
 	bigdataviewer-core lazy
 	bigdataviewer-vistools lazy
-	gson lazy
-	jdom2 lazy
 	ui-behaviour lazy
 	spim_data lazy
 	jfreechart lazy
@@ -66,7 +62,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	bigdataviewer-core.source lazy
 	bigdataviewer-vistools.source lazy
 	commons-collections.source lazy
-	gson.source lazy
 	ij.source lazy
 	ilastik4ij.source lazy
 	imagej-common.source lazy
@@ -80,8 +75,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	imglib2-roi.source lazy
 	imglib2-ui.source lazy
 	imglib2.source lazy
-	jama.source lazy
-	jdom2.source lazy
 	jep.source lazy
 	knip-tmp-imglib2-ops.source lazy
 	miglayout.source lazy
@@ -100,7 +93,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scripting-java.source lazy
 	scripting-javascript.source lazy
 	spim_data.source lazy
-	trove4j.source lazy
 	ui-behaviour.source lazy
 	xml-apis.source lazy
 }
