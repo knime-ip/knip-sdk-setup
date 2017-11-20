@@ -59,9 +59,10 @@ location knime "https://update.knime.org/analytics-platform/3.4/" {
 }
 
 location knime-community-trusted "http://update.knime.org/community-contributions/trusted/3.4" {
-	org.knime.knip.feature.feature.group [1.5.4,1.5.5)
-	org.knime.knip.omero.feature.feature.group [0.10.0,0.10.1)
-	org.knime.knip.testing.feature.feature.group [1.5.4,1.5.5)
+	org.knime.knip.feature.feature.group lazy
+	org.knime.knip.omero.feature.feature.group lazy
+	org.knime.knip.testing.feature.feature.group lazy
+	org.knime.knip.knimepython lazy
 }
 
 // Server Client plugins:
@@ -70,9 +71,8 @@ location knime-community-trusted "http://update.knime.org/community-contribution
 //}
 
 location knime-community "http://update.knime.org/community-contributions/3.4" {
-	org.knime.knip.cellprofiler.feature.feature.group  [0.3.0,0.3.1)
-	org.knime.knip.ilastik.feature.feature.group [0.3.0,0.3.1)
-	org.knime.knip.knimepython.feature.feature.group [1.0.3,1.0.4)
-	org.knime.knip.tess4j.feature.feature.group [1.3.0,1.3.1)
-	org.knime.knip.imagej.feature.feature.group [0.11.2,0.11.3)
+	org.knime.knip.cellprofiler.feature.feature.group lazy
+	org.knime.knip.ilastik.feature.feature.group lazy
+	org.knime.knip.tess4j.feature.feature.group lazy
+	org.knime.knip.imagej.feature.feature.group lazy
 }
