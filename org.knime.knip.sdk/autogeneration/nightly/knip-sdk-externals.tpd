@@ -9,7 +9,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scijava-cache lazy
 	scripting-javascript lazy
 	args4j lazy
-	commons-collections lazy
 	ij lazy
 	ilastik4ij lazy
 	imagej-common lazy
@@ -61,7 +60,6 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	args4j.source lazy
 	bigdataviewer-core.source lazy
 	bigdataviewer-vistools.source lazy
-	commons-collections.source lazy
 	ij.source lazy
 	ilastik4ij.source lazy
 	imagej-common.source lazy

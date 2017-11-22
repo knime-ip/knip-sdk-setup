@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME Nightly + External Dependencies for KNIP " sequenceNumber="1510744914">
+<target name="KNIP Developer SDK: KNIME Nightly + External Dependencies for KNIP " sequenceNumber="1511351501">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
@@ -70,7 +70,6 @@
       <unit id="scijava-cache" version="0.0.0"/>
       <unit id="scripting-javascript" version="0.0.0"/>
       <unit id="args4j" version="0.0.0"/>
-      <unit id="commons-collections" version="0.0.0"/>
       <unit id="ij" version="0.0.0"/>
       <unit id="ilastik4ij" version="0.0.0"/>
       <unit id="imagej-common" version="0.0.0"/>
@@ -122,7 +121,6 @@
       <unit id="args4j.source" version="0.0.0"/>
       <unit id="bigdataviewer-core.source" version="0.0.0"/>
       <unit id="bigdataviewer-vistools.source" version="0.0.0"/>
-      <unit id="commons-collections.source" version="0.0.0"/>
       <unit id="ij.source" version="0.0.0"/>
       <unit id="ilastik4ij.source" version="0.0.0"/>
       <unit id="imagej-common.source" version="0.0.0"/>

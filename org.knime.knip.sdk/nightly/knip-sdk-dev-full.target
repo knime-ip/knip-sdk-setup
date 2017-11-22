@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1510744921">
+<target name="Full KNIP SDK: KNIP + KNIME + External Dependencies" sequenceNumber="1511351504">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -11,7 +11,6 @@
       <unit id="scijava-cache" version="0.0.0"/>
       <unit id="scripting-javascript" version="0.0.0"/>
       <unit id="args4j" version="0.0.0"/>
-      <unit id="commons-collections" version="0.0.0"/>
       <unit id="ij" version="0.0.0"/>
       <unit id="ilastik4ij" version="0.0.0"/>
       <unit id="imagej-common" version="0.0.0"/>
@@ -63,7 +62,6 @@
       <unit id="args4j.source" version="0.0.0"/>
       <unit id="bigdataviewer-core.source" version="0.0.0"/>
       <unit id="bigdataviewer-vistools.source" version="0.0.0"/>
-      <unit id="commons-collections.source" version="0.0.0"/>
       <unit id="ij.source" version="0.0.0"/>
       <unit id="ilastik4ij.source" version="0.0.0"/>
       <unit id="imagej-common.source" version="0.0.0"/>
