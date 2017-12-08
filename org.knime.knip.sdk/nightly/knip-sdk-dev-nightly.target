@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="Full KNIP SDK: KNIP + KNIME stable + External Dependencies" sequenceNumber="1512746732">
+<target name="KNIP Developer SDK: KNIME nightly + External Dependencies for KNIP " sequenceNumber="1512746732">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -163,17 +163,7 @@
       <unit id="org.knime.features.cloud.azure.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="https://update.knime.org/analytics-platform/3.5/"/>
-    </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.knime.knip.feature.feature.group" version="0.0.0"/>
-      <unit id="org.knime.knip.omero.feature.feature.group" version="0.0.0"/>
-      <unit id="org.knime.knip.testing.feature.feature.group" version="0.0.0"/>
-      <unit id="org.knime.knip.imagej.feature.feature.group" version="0.0.0"/>
-      <unit id="org.knime.knip.tess4j.feature.feature.group" version="0.0.0"/>
-      <unit id="org.knime.knip.imagej3d.feature.feature.group" version="0.0.0"/>
-      <unit id="org.knime.knip.suise.feature.feature.group" version="0.0.0"/>
-      <repository id="knime-community-nightly" location="https://update.knime.org/community-contributions/trunk/"/>
+      <repository id="knime" location="https://update.knime.org/analytics-platform/nightly/"/>
     </location>
   </locations>
 </target>

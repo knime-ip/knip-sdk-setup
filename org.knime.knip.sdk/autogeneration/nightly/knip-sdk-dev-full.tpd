@@ -1,4 +1,4 @@
-target "Full KNIP SDK: KNIP + KNIME + External Dependencies"
+target "Full KNIP SDK: KNIP + KNIME stable + External Dependencies"
 
 include "knip-sdk-dev.tpd"
 

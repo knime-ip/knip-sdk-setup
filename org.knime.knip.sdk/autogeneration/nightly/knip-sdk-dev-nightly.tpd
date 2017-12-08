@@ -1,18 +1,38 @@
-target "KNIP Developer SDK: KNIME Nightly + External Dependencies for KNIP "
+target "KNIP Developer SDK: KNIME nightly + External Dependencies for KNIP " with
+source requirements
 
-with source requirements
+include "knip-sdk-externals.tpd"
 
-location knime "https://jenkins.knime.org/download/trunk/" {
+location knime "https://update.knime.org/analytics-platform/nightly/" {
+
+	// KNIME Basics
+	org.knime.features.ext.itemset.feature.group lazy
+	org.knime.features.base.feature.group lazy
+	org.knime.features.ensembles.feature.group lazy
+	org.knime.features.dbdrivers.feature.group lazy
+	org.knime.features.ext.jep.feature.group lazy
+	org.knime.features.ext.poi.feature.group lazy
+	org.knime.features.json.feature.group lazy
+	org.knime.features.xml.feature.group lazy
+	org.knime.features.js.quickforms.feature.group lazy
+	org.knime.features.personalproductivity.feature.group lazy
+
+	// Testing
+	org.knime.features.testingapplication.feature.group lazy
+
+	// KNIME server access
+	com.knime.features.enterprise.client.feature.group lazy
+	com.knime.features.enterprise.client.exampleserver.feature.group lazy
+	com.knime.features.enterprise.server.ws.client.feature.group lazy
+	
+	// Other KNIME features
 	org.knime.features.ext.osm.feature.group lazy
 	org.knime.features.stats2.feature.group lazy
-	org.knime.features.ext.itemset.feature.group lazy
-	org.knime.product.desktop lazy
 	org.knime.features.ext.spotfire.feature.group lazy
 	org.knime.features.activelearning.feature.group lazy
 	com.knime.features.reporting.designer.feature.group lazy
 	org.knime.features.quickform.legacy.feature.group lazy
 	org.knime.features.mongodb.feature.group lazy
-	org.knime.features.testingapplication.feature.group lazy
 	org.knime.features.base.pmml.translation.feature.group lazy
 	org.knime.features.exttool.feature.group lazy
 	org.knime.features.optimization.feature.group lazy
@@ -59,12 +79,6 @@ location knime "https://jenkins.knime.org/download/trunk/" {
 	org.knime.features.cloud.azure.feature.group lazy
 	org.knime.features.cloud.aws.feature.group lazy
 
-	// Server client plugins	
-	com.knime.features.enterprise.client.feature.group lazy
-	com.knime.features.explorer.serverspace.feature.group lazy
-
 	// eclipse pde für scripting plugin
 	org.eclipse.pde.api.tools lazy
 }
-
-include "knip-sdk-externals.tpd"
