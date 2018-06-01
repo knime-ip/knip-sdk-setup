@@ -51,15 +51,28 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	imagej-updater lazy
 	script-editor lazy
 	parsington lazy
-	parsington.source lazy
-	imagej-updater.source lazy
 	com.fifesoft.languagesupport lazy
 	com.fifesoft.rsyntaxtextarea lazy
+	eventbus lazy
+	gov.nist.math.jama lazy
+	imagej-mesh lazy
+	org.jdom.2 lazy
+	scijava-search lazy
+	trove4j lazy
+	imglib2-cache lazy
+	com.google.gson lazy
+	com.google.guava lazy
+	eventbus.source lazy
+	imagej-mesh.source lazy
+	imglib2-cache.source lazy
+	scijava-search.source lazy
+	trove4j.source lazy
+	parsington.source lazy
+	imagej-updater.source lazy
 	jfreechart.source lazy
 	script-editor.source lazy
 	args4j.source lazy
 	bigdataviewer-core.source lazy
-	bigdataviewer-vistools.source lazy
 	ij.source lazy
 	ilastik4ij.source lazy
 	imagej-common.source lazy

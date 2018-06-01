@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="Full KNIP SDK: KNIP + KNIME stable + External Dependencies" sequenceNumber="1512746732">
+<target name="Full KNIP SDK: KNIP + KNIME stable + External Dependencies" sequenceNumber="1527853937">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -53,15 +53,28 @@
       <unit id="imagej-updater" version="0.0.0"/>
       <unit id="script-editor" version="0.0.0"/>
       <unit id="parsington" version="0.0.0"/>
-      <unit id="parsington.source" version="0.0.0"/>
-      <unit id="imagej-updater.source" version="0.0.0"/>
       <unit id="com.fifesoft.languagesupport" version="0.0.0"/>
       <unit id="com.fifesoft.rsyntaxtextarea" version="0.0.0"/>
+      <unit id="eventbus" version="0.0.0"/>
+      <unit id="gov.nist.math.jama" version="0.0.0"/>
+      <unit id="imagej-mesh" version="0.0.0"/>
+      <unit id="org.jdom.2" version="0.0.0"/>
+      <unit id="scijava-search" version="0.0.0"/>
+      <unit id="trove4j" version="0.0.0"/>
+      <unit id="imglib2-cache" version="0.0.0"/>
+      <unit id="com.google.gson" version="0.0.0"/>
+      <unit id="com.google.guava" version="0.0.0"/>
+      <unit id="eventbus.source" version="0.0.0"/>
+      <unit id="imagej-mesh.source" version="0.0.0"/>
+      <unit id="imglib2-cache.source" version="0.0.0"/>
+      <unit id="scijava-search.source" version="0.0.0"/>
+      <unit id="trove4j.source" version="0.0.0"/>
+      <unit id="parsington.source" version="0.0.0"/>
+      <unit id="imagej-updater.source" version="0.0.0"/>
       <unit id="jfreechart.source" version="0.0.0"/>
       <unit id="script-editor.source" version="0.0.0"/>
       <unit id="args4j.source" version="0.0.0"/>
       <unit id="bigdataviewer-core.source" version="0.0.0"/>
-      <unit id="bigdataviewer-vistools.source" version="0.0.0"/>
       <unit id="ij.source" version="0.0.0"/>
       <unit id="ilastik4ij.source" version="0.0.0"/>
       <unit id="imagej-common.source" version="0.0.0"/>
