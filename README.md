@@ -31,7 +31,7 @@ It contains the most recent KNIME Analytics Platform and all required dependenci
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
 ## Getting started with KNIP development
-- Download and install [Eclipse 4.7](http://eclipse.org/home/index.php)
+- Download and install [Eclipse 4.7](http://eclipse.org/home/index.php) or later.
 - Install the __Eclipse Plug-in Development Environment__ plugin from the __The Eclipse Project Updates__ update-site
 - Clone this repository using git clone https://github.com/knime-ip/knip-sdk-setup
 - Import the contained projects (File -> Import -> General -> Existing Projects) into Workspace
