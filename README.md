@@ -7,7 +7,7 @@ We provide different target definitions:
 * __stable__
    These target definitions allow starting and debugging released versions of KNIME / KNIP. This is useful to reproduce the environments of users.
   * __knip-sdk-2.11-full__:
-    KNIME 2.11 with the latest release of the compatible KNIP plugins.
+        KNIME 2.11 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-2.12-full__:
 	KNIME 2.12 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-3.0-full__:
@@ -20,11 +20,13 @@ We provide different target definitions:
 	KNIME 3.3 with the latest release of the compatible KNIP plugins.
   * __knip-sdk-3.4-full__:
 	KNIME 3.4 with the latest release of the compatible KNIP plugins.
+  * __knip-sdk-3.5-full__:
+	KNIME 3.5 with the latest release of the compatible KNIP plugins.	
 * __nightly__:
   * __knip-sdk-dev__ For people who work directly on KNIP and have the [KNIP](https://github.com/knime-ip/knip) and [KNIP SciJava](https://github.com/knime-ip/knip-scijava) source code cloned and added to their workspace.
-It contains the most recent KNIME and all required dependencies for developing KNIP itself.
-  * __knip-sdk-full__ For people who want to test the latest nightly build from their IDE, contains the latest nightly build of all KNIP plugins.
-  * __knip-sdk-knime-nightly__ Same as _knip-sdk-dev_ but targets the latest nightly build of KNIME itself.
+It contains the most recent KNIME Analytics Platform and all required dependencies for developing KNIP itself.
+  * __knip-sdk-dev-full__ For people who want to test the latest nightly build from their IDE, contains the latest nightly build of all KNIP plugins and the latest release of KNIME Analytics Platform.
+  * __knip-sdk-dev-nightly__ Same as _knip-sdk-dev_ but targets the latest nightly build of KNIME Analytics Platform.
 
 If you need additional plugins you can easily edit the software sites in the target definitions and select the ones you need.
 
