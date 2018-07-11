@@ -1,10 +1,7 @@
-target "KNIP Developer SDK: KNIME stable + External Dependencies for KNIP " with
-source requirements
-
-include "knip-sdk-externals.tpd"
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies" with source
+requirements
 
 location knime "https://update.knime.org/analytics-platform/3.6/" {
-
 	// KNIME Basics
 	org.knime.features.ext.itemset.feature.group lazy
 	org.knime.features.base.feature.group lazy
@@ -62,7 +59,6 @@ location knime "https://update.knime.org/analytics-platform/3.6/" {
 	org.knime.features.ext.lucene.feature.group lazy
 	org.knime.features.rest.feature.group lazy
 	org.knime.features.ext.webservice.client.feature.group lazy
-	org.knime.features.ext.r.bin.feature.group lazy
 	org.knime.features.webanalytics.feature.group lazy
 	org.knime.features.ext.textprocessing.feature.group lazy
 	org.knime.features.ext.svg.feature.group lazy
@@ -71,7 +67,6 @@ location knime "https://update.knime.org/analytics-platform/3.6/" {
 	org.knime.features.r.feature.group lazy
 	org.knime.features.ext.socialmedia.feature.group lazy
 	org.knime.features.base.pmml.feature.group lazy
-	org.knime.features.ext.weka_3.7.feature.group lazy
 	org.knime.features.base.pmml2.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
 
@@ -81,4 +76,23 @@ location knime "https://update.knime.org/analytics-platform/3.6/" {
 
 	// eclipse pde für scripting plugin
 	org.eclipse.pde.api.tools lazy
+}
+
+location knime-community-trusted "http://update.knime.org/community-contributions/trusted/3.6" {
+	org.knime.knip.feature.feature.group lazy
+	org.knime.knip.omero.feature.feature.group lazy
+	org.knime.knip.testing.feature.feature.group lazy
+	org.knime.knip.knimepython lazy
+}
+
+// Server Client plugins:
+//location knime-server "http://update.knime.org/server/4.3" {
+//	com.knime.features.explorer.serverspace.feature.group lazy
+//}
+
+location knime-community "http://update.knime.org/community-contributions/3.6" {
+	org.knime.knip.cellprofiler.feature.feature.group lazy
+	org.knime.knip.ilastik.feature.feature.group lazy
+	org.knime.knip.tess4j.feature.feature.group lazy
+	org.knime.knip.imagej.feature.feature.group lazy
 }
