@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME stable + External Dependencies for KNIP " sequenceNumber="1531323106">
+<target name="KNIP Developer SDK: KNIME stable + External Dependencies for KNIP " sequenceNumber="1540893839">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="a.jre.javase" version="0.0.0"/>
@@ -127,7 +127,6 @@
       <unit id="com.knime.features.enterprise.server.ws.client.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.reporting.designer.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>

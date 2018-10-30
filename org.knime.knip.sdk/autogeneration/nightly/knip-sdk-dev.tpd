@@ -28,7 +28,6 @@ location knime "https://update.knime.org/analytics-platform/3.6/" {
 	// Other KNIME features
 	org.knime.features.ext.osm.feature.group lazy
 	org.knime.features.stats2.feature.group lazy
-	org.knime.features.ext.spotfire.feature.group lazy
 	org.knime.features.activelearning.feature.group lazy
 	com.knime.features.reporting.designer.feature.group lazy
 	org.knime.features.quickform.legacy.feature.group lazy
