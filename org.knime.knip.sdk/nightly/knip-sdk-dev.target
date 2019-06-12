@@ -124,8 +124,6 @@
       <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
-      <unit id="com.knime.features.enterprise.server.ws.client.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.reporting.designer.feature.group" version="0.0.0"/>
@@ -175,7 +173,7 @@
       <unit id="org.knime.features.cloud.azure.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="https://update.knime.org/analytics-platform/3.6/"/>
+      <repository id="knime" location="https://update.knime.org/analytics-platform/3.7/"/>
     </location>
   </locations>
 </target>
