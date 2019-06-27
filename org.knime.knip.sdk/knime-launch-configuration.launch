@@ -15,7 +15,6 @@
 <stringAttribute key="location" value="${workspace_loc}/../runtime-KNIP"/>
 <mapAttribute key="org.eclipse.debug.core.environmentVariables">
 <mapEntry key="J2D_D3D" value="false"/>
-<mapEntry key="SWT_GTK3" value="0"/>
 </mapAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <listAttribute key="org.eclipse.jdt.launching.CLASSPATH">

@@ -17,7 +17,6 @@
       <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
-      <unit id="com.knime.features.enterprise.server.ws.client.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.osm.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.spotfire.feature.group" version="0.0.0"/>
