@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
-<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="KNIP Developer SDK: KNIME stable + External Dependencies for KNIP " sequenceNumber="1540893839">
+<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform --><target name="KNIP Developer SDK: KNIME stable + External Dependencies for KNIP" sequenceNumber="1540893839">
   <locations>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="a.jre.javase" version="0.0.0"/>
+    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="xml-apis" version="0.0.0"/>
       <unit id="imagej-deprecated" version="0.0.0"/>
       <unit id="jython-shaded" version="0.0.0"/>
@@ -53,17 +51,11 @@
       <unit id="imagej-updater" version="0.0.0"/>
       <unit id="script-editor" version="0.0.0"/>
       <unit id="parsington" version="0.0.0"/>
-      <unit id="com.fifesoft.languagesupport" version="0.0.0"/>
-      <unit id="com.fifesoft.rsyntaxtextarea" version="0.0.0"/>
       <unit id="eventbus" version="0.0.0"/>
-      <unit id="gov.nist.math.jama" version="0.0.0"/>
       <unit id="imagej-mesh" version="0.0.0"/>
-      <unit id="org.jdom.2" version="0.0.0"/>
       <unit id="scijava-search" version="0.0.0"/>
       <unit id="trove4j" version="0.0.0"/>
       <unit id="imglib2-cache" version="0.0.0"/>
-      <unit id="com.google.gson" version="0.0.0"/>
-      <unit id="com.google.guava" version="0.0.0"/>
       <unit id="eventbus.source" version="0.0.0"/>
       <unit id="imagej-mesh.source" version="0.0.0"/>
       <unit id="imglib2-cache.source" version="0.0.0"/>
@@ -75,7 +67,6 @@
       <unit id="script-editor.source" version="0.0.0"/>
       <unit id="args4j.source" version="0.0.0"/>
       <unit id="bigdataviewer-core.source" version="0.0.0"/>
-      <unit id="ij.source" version="0.0.0"/>
       <unit id="ilastik4ij.source" version="0.0.0"/>
       <unit id="imagej-common.source" version="0.0.0"/>
       <unit id="imagej-deprecated.source" version="0.0.0"/>
@@ -109,8 +100,14 @@
       <unit id="ui-behaviour.source" version="0.0.0"/>
       <unit id="xml-apis.source" version="0.0.0"/>
       <repository id="knip-externals" location="https://community.knime.org/download/knip-externals-trunk"/>
+	    <unit id="bigdataviewer-ui-panel" version="0.0.0"/>
+	    <unit id="bigdataviewer-ui-panel.source" version="0.0.0"/>
+	    <unit id="scijava-io-http" version="0.0.0"/>
+	    <unit id="scijava-io-http.source" version="0.0.0"/>
+	    <unit id="scijava-table" version="0.0.0"/>
+	    <unit id="scijava-table.source" version="0.0.0"/>
     </location>
-    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="org.knime.features.ext.itemset.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ensembles.feature.group" version="0.0.0"/>
@@ -121,12 +118,11 @@
       <unit id="org.knime.features.xml.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.js.quickforms.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.personalproductivity.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.testingapplication.feature.group" version="0.0.0"/>
+      <unit id="org.knime.features.testing.application.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.feature.group" version="0.0.0"/>
       <unit id="com.knime.features.enterprise.client.exampleserver.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.stats2.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.activelearning.feature.group" version="0.0.0"/>
-      <unit id="com.knime.features.reporting.designer.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.quickform.legacy.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.mongodb.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.pmml.translation.feature.group" version="0.0.0"/>
@@ -165,7 +161,6 @@
       <unit id="org.knime.features.python.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.distmatrix.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.r.feature.group" version="0.0.0"/>
-      <unit id="org.knime.features.ext.socialmedia.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.pmml.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.ext.weka_3.7.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.base.pmml2.feature.group" version="0.0.0"/>
@@ -173,7 +168,7 @@
       <unit id="org.knime.features.cloud.azure.feature.group" version="0.0.0"/>
       <unit id="org.knime.features.cloud.aws.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.pde.api.tools" version="0.0.0"/>
-      <repository id="knime" location="https://update.knime.org/analytics-platform/3.7/"/>
+      <repository id="knime" location="https://update.knime.org/analytics-platform/4.2/"/>
     </location>
   </locations>
 </target>

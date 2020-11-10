@@ -1,10 +1,7 @@
-target "KNIP Developer SDK: KNIME nightly + External Dependencies for KNIP " with
-source requirements
+target "Full KNIP SDK: KNIP + KNIME + External Dependencies" with source
+requirements
 
-include "knip-sdk-externals.tpd"
-
-location knime "https://update.knime.org/analytics-platform/nightly/" {
-
+location knime "https://update.knime.org/analytics-platform/4.1" {
 	// KNIME Basics
 	org.knime.features.ext.itemset.feature.group lazy
 	org.knime.features.base.feature.group lazy
@@ -23,38 +20,37 @@ location knime "https://update.knime.org/analytics-platform/nightly/" {
 	// KNIME server access
 	com.knime.features.enterprise.client.feature.group lazy
 	com.knime.features.enterprise.client.exampleserver.feature.group lazy
-	com.knime.features.explorer.serverspace.feature.group lazy
 	
 	// Other KNIME features
 	org.knime.features.ext.osm.feature.group lazy
 	org.knime.features.stats2.feature.group lazy
-	org.knime.features.activelearning.feature.group lazy
-	com.knime.features.reporting.designer.feature.group lazy
-	org.knime.features.mongodb.feature.group lazy
-	org.knime.features.base.pmml.translation.feature.group lazy
 	org.knime.features.exttool.feature.group lazy
 	org.knime.features.optimization.feature.group lazy
 	org.knime.features.ext.jfreechart.feature.group lazy
+	org.knime.features.datageneration.feature.group lazy
 	org.knime.features.ext.chem.tools.feature.group lazy
 	org.knime.features.base.widedata.feature.group lazy
-	org.knime.features.jpmml.feature.group lazy
-	org.knime.features.ext.parso.feature.group lazy
+	org.knime.features.network.feature.group lazy
 	org.knime.features.virtual.feature.group lazy
 	org.knime.features.js.views.feature.group lazy
-	org.knime.features.neighborgram.feature.group lazy
-	org.knime.features.ext.birt.feature.group lazy
-	org.knime.features.ext.md.feature.group lazy
-	org.knime.features.chem.types.feature.group lazy
 	org.knime.features.core.streaming.feature.group lazy
-	org.knime.features.ext.lucene.feature.group lazy
-	org.knime.features.rest.feature.group lazy
-	org.knime.features.webanalytics.feature.group lazy
-	org.knime.features.ext.textprocessing.feature.group lazy
+	org.knime.features.ext.exttool.feature.group lazy
 	org.knime.features.ext.svg.feature.group lazy
-	org.knime.features.python2.feature.group lazy
+	org.knime.features.python.feature.group lazy
 	org.knime.features.distmatrix.feature.group lazy
 	org.knime.features.base.filehandling.feature.group lazy
+}
 
-	// eclipse pde für scripting plugin
-	org.eclipse.pde.api.tools lazy
+location knime-community-trusted "http://update.knime.org/community-contributions/trusted/4.1" {
+	org.knime.knip.feature.feature.group lazy
+	org.knime.knip.omero.feature.feature.group lazy
+	org.knime.knip.testing.feature.feature.group lazy
+	org.knime.knip.knimepython lazy
+}
+
+location knime-community "http://update.knime.org/community-contributions/4.1" {
+	org.knime.knip.cellprofiler.feature.feature.group lazy
+	org.knime.knip.ilastik.feature.feature.group lazy
+	org.knime.knip.tess4j.feature.feature.group lazy
+	org.knime.knip.imagej.feature.feature.group lazy
 }

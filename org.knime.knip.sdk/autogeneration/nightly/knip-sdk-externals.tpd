@@ -45,6 +45,7 @@ location knip-externals "https://community.knime.org/download/knip-externals-tru
 	scripting-jruby lazy
 	bigdataviewer-core lazy
 	bigdataviewer-vistools lazy
+	bigdataviewer-ui-panel lazy
 	ui-behaviour lazy
 	spim_data lazy
 	jfreechart lazy
