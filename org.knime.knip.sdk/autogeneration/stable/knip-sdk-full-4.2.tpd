@@ -3,7 +3,7 @@ requirements
 
 location knime "https://update.knime.org/analytics-platform/4.2" {
 	// base KNIME
-	org.knime.features.base.feature.group lazy
+	org.knime.desktop.product lazy
 	org.knime.features.ensembles.feature.group lazy
 	org.knime.features.dbdrivers.feature.group lazy
 	org.knime.features.ext.jep.feature.group lazy
